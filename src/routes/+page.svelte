@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		// Navbar fade-in dari atas
 		const navbar = document.querySelector('.navbar');
 		if (navbar) {
 			navbar.style.opacity = 0;
@@ -13,43 +12,34 @@
 				navbar.style.transform = 'translateY(0)';
 			}, 100);
 		}
-		// Hero elements satu per satu dari bawah
+
 		const heroElements = [
 			'.hero-heading',
 			'.hero-sub1',
 			'.hero-sub2',
 			'.hero-btn'
 		];
+
 		const statElements = [
 			'.stat-fst',
 			'.stat-scnd',
 			'.stat-thrd',
 			'.stat-frth',
 		];
+
 		const ctaFirst = document.querySelector('.cta-first');
 		const ctaSecond = document.querySelector('.cta-second');
 
-		ctaSecond.style.opacity = 0;
-		ctaSecond.style.transform = 'translateX(-30px)';
-		ctaSecond.style.transition = 'all 0.6s ease';
-
-		ctaFirst.style.opacity = 0;
-		ctaFirst.style.transform = 'translateX(30px)';
-		ctaFirst.style.transition = 'all 0.6s ease';
-
-		const observerB = new IntersectionObserver((entries) => {
-			entries.forEach(enrty => {
-				if (enrty.isIntersecting) {
-					enrty.target.style.opacity = 1;
-					enrty.target.style.transform = 'translateX(0)';
-				} else {
-					enrty.target.style.opacity = 0;
-					enrty.target.style.transform = 'translateX(-30px)';
-				}
-			})
-		})
-		
-		if (ctaSecond) observerB.observe(ctaSecond)
+		if (ctaSecond) {
+			ctaSecond.style.opacity = 0;
+			ctaSecond.style.transform = 'translateX(-30px)';
+			ctaSecond.style.transition = 'all 0.6s ease';
+		}
+		if (ctaFirst) {
+			ctaFirst.style.opacity = 0;
+			ctaFirst.style.transform = 'translateX(30px)';
+			ctaFirst.style.transition = 'all 0.6s ease';
+		}
 
 		const observerA = new IntersectionObserver((entries) => {
 			entries.forEach(entry => {
@@ -61,20 +51,32 @@
 					entry.target.style.transform = 'translateX(30px)';
 				}
 			})
-		})
+		});
+		const observerB = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.style.opacity = 1;
+					entry.target.style.transform = 'translateX(0)';
+				} else {
+					entry.target.style.opacity = 0;
+					entry.target.style.transform = 'translateX(-30px)';
+				}
+			})
+		});
 
-		if (ctaFirst) observerA.observe(ctaFirst)
+		if (ctaFirst) observerA.observe(ctaFirst);
+		if (ctaSecond) observerB.observe(ctaSecond);
 
-		statElements.forEach((selector,index) => {
+		statElements.forEach((selector, index) => {
 			const el = document.querySelector(selector);
 			if (el) {
 				el.style.opacity = 0;
-				el.style.transform = 'translateY(30px)'
-				el.style.transition = 'all 0.6s ease'
+				el.style.transform = 'translateY(30px)';
+				el.style.transition = 'all 0.6s ease';
 			}
 		});
 
-		const observer = new IntersectionObserver((entries) => {
+		const observerStats = new IntersectionObserver((entries) => {
 			entries.forEach((entry) => {
 				const index = statElements.findIndex(selector => document.querySelector(selector) === entry.target);
 				if (entry.isIntersecting) {
@@ -82,14 +84,14 @@
 						entry.target.style.opacity = 1;
 						entry.target.style.transform = 'translateY(0)';
 					}, 100 + index * 100);
-				} 
-			})
-		})
+				}
+			});
+		});
 
 		statElements.forEach((selector) => {
-			const el = document.querySelector(selector)
-			if (el) observer.observe(el);
-		})
+			const el = document.querySelector(selector);
+			if (el) observerStats.observe(el);
+		});
 
 		heroElements.forEach((selector, index) => {
 			const el = document.querySelector(selector);
@@ -100,27 +102,31 @@
 					el.style.transition = 'all 0.6s ease';
 					el.style.opacity = 1;
 					el.style.transform = 'translateY(0)';
-				}, 600 + index * 200); // Delay antar elemen
+				}, 600 + index * 200);
 			}
 		});
 	});
 </script>
+
 <!-- Navbar -->
 <div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-green-700">
-    <div>
-        <img src="./image/logo-mbti-web.png" class="h-12 w-auto" alt="">
-    </div>
-    <div class="flex justify-center gap-5 items-center">
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
-    </div>
-    <div class="flex items-center gap-3 ">
-        <a href="#kanjau" class="font-semibold text-md text-primary">Login</a>
-        <button class=" btn border-black text-black items-center mt-1 hover:btn-primary hover:text-primary-content">Try Test</button>
-    </div>
+	<div>
+		<img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
+	</div>
+	<div class="flex justify-center gap-5 items-center">
+		<a href="/test" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
+		<a href="/types" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
+		<a href="/theory" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
+		<a href="#label" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
+	</div>
+	<div class="flex items-center gap-3">
+		<a href="#kanjau" class="font-semibold text-md text-primary">Login</a>
+		<button class="btn border-black text-black items-center mt-1 hover:btn-primary hover:text-primary-content">
+			Try Test
+		</button>
+	</div>
 </div>
+
 <!-- Hero -->
  <div class=" flex flex-col justify-center items-center h-[90vh]">
     <h1 class="hero-heading text-4xl font-black text-black text-center mb-2.5">“Kadang yang paling susah dipahami…<span class="begeh bg-black relative text-primary-content">ya diri sendiri.”</span></h1>

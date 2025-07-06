@@ -3,9 +3,9 @@
         <img src="./image/logo-mbti-web.png" class="h-12 w-auto" alt="">
     </div>
     <div class="flex justify-center gap-5 items-center">
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
-        <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
+        <a href="./test" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
+        <a href="./types" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
+        <a href="./theory" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
         <a href="#label" aria-label="anjay" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
     </div>
     <div class="flex items-center gap-3 ">
