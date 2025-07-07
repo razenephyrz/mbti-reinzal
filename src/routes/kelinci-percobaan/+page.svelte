@@ -1,11 +1,11 @@
 <script lang="ts">
-  // nanti bisa diganti dengan store atau dynamic param
+
 </script>
 
 <div class="p-6 space-y-8">
 
   <!-- HERO: Profil -->
-<section class="relative h-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg duration-300 shadow-black">
+<section class="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-md duration-300 shadow-black">
   <!-- Background Hero -->
   <div class="h-full w-full bg-cover bg-center" style="background-image: url('/image/mbti-bg/infp-bg.jpg');">
     <!-- Overlay -->
@@ -27,10 +27,10 @@
 
         <!-- Kanan: Badges -->
         <div class="flex flex-wrap gap-2 text-xs md:text-sm">
-          <span class="badge badge-primary">Introverted</span>
-          <span class="badge badge-secondary">Intuitive</span>
-          <span class="badge badge-accent">Feeling</span>
-          <span class="badge badge-success">Perceiving</span>
+          <span class="badge badge-primary shadow shadow-primary-content">Introverted</span>
+          <span class="badge badge-secondary shadow shadow-secondary-content">Intuitive</span>
+          <span class="badge badge-accent shadow shadow-accent-content">Feeling</span>
+          <span class="badge bg-primary text-green-300 border-0 shadow shadow-green-300">Perceiving</span>
         </div>
 
       </div>
@@ -38,20 +38,47 @@
   </div>
 </section>
 
+<section class="bg-sect rounded-xl overflow-hidden shadow-lg mb-10 animated-bg shadow-black">
+  <!-- Judul Section -->
+  <div class="p-6 flex justify-between items-center rounded-xl shadow-white bg-white shadow">
+    <h2 class="text-2xl text-black font-bold mb-2">🎧 Lagu Cocok untuk INFP</h2>
+    <p class="text-md text-black">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
+  </div>
 
-
-  <!-- GRID ASPEK -->
-  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
-    <!-- Lagu -->
-    <div class="bg-base-200 p-4 rounded-xl shadow hover:shadow-lg transition">
-      <h2 class="text-lg font-bold mb-2">🎧 Lagu Cocok</h2>
-      <ul class="list-disc pl-5 text-sm space-y-1">
-        <li>Laufey – From the Start</li>
-        <li>Cigarettes After Sex – Apocalypse</li>
-        <li>Billie Eilish – Everything I Wanted</li>
-      </ul>
+  <!-- Daftar Lagu -->
+  <div class="flex grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-evenly p-6">
+    
+    <!-- Card 1 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #90946Eff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/billie.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Everything I Wanted</h3>
+        <p class="text-sm text-gray-300">Billie Eilish</p>
+      </div>
     </div>
+
+    <!-- Card 2 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #672702ff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/laufey.jpg" alt="From the Start" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">From the Start</h3>
+        <p class="text-sm text-gray-300">Laufey</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #1C1C1C">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/cas.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Apocalypse</h3>
+        <p class="text-sm text-gray-300">Cigarettes After Sex</p>
+      </div>
+    </div>
+
+    <!-- Tambah lagu lainnya tinggal copy paste di sini -->
+    
+  </div>
+</section>
 
     <!-- Karakter -->
     <div class="bg-base-200 p-4 rounded-xl shadow hover:shadow-lg transition">
@@ -95,7 +122,7 @@
       <h2 class="text-lg font-bold mb-2">💘 Kecocokan MBTI</h2>
       <p class="text-sm">INFP sering cocok dengan ENFJ & INFJ karena hubungan emosional yang mendalam dan suportif.</p>
     </div>
-  </section>
+
 
   <!-- Footer -->
   <footer class="text-center mt-12 text-sm text-gray-500">
@@ -104,3 +131,30 @@
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
   </footer>
 </div>
+
+
+<style>
+  .bg-sect{
+    background: linear-gradient(45deg, #90946Eff, #672702ff, #1C1C1C);
+  }
+  .animated-bg {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(-45deg, #90946Eff, #672702ff, #1C1C1C, #90946Eff);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    overflow: hidden;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
