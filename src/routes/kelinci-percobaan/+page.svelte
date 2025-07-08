@@ -80,6 +80,18 @@
   </div>
 </section>
 
+<div class="flex justify-evenly gap-10">
+<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+  <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
+— Frodo Baggins</h1>
+</div>
+<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+  <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
+— Naruto Uzumaki</h1> 
+</div>
+</div>
     <!-- Karakter -->
     <div class="bg-base-200 p-4 rounded-xl shadow hover:shadow-lg transition">
       <h2 class="text-lg font-bold mb-2">🎬 Karakter Fiksi</h2>
@@ -132,15 +144,27 @@
   </footer>
 </div>
 
+<div class="flex justify-evenly gap-10">
+<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+  <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
+— Frodo Baggins</h1>
+</div>
+<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+  <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
+— Naruto Uzumaki</h1> 
+</div>
+</div>
 
 <style>
   .bg-sect{
-    background: linear-gradient(45deg, #90946Eff, #672702ff, #1C1C1C);
+    background: linear-gradient(45deg, #4A7D59ff, #4176B5ff, #A9C748ff);
   }
   .animated-bg {
     position: relative;
     width: 100%;
-    background: linear-gradient(-45deg, #90946Eff, #672702ff, #1C1C1C, #90946Eff);
+    background: linear-gradient(-45deg, #4A7D59ff, #4176B5ff, #A9C748ff);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     overflow: hidden;
