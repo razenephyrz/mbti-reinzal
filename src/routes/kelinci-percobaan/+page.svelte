@@ -4,6 +4,25 @@
 
 <div class="p-6 space-y-8">
 
+<div class="relative w-56 h-24 rounded-xl overflow-hidden">
+    <img src="./image/mapel/psikologi.jpg" alt="card" 
+    class="absolute inset-0 w-full h-full object-cover">
+    <div class=" absolute inset-0 flex justify-center items-center text-white text-3xl font-black z-10">
+      <p class="text-center text-shadow-xs text-black text-shadow-black">Psikologi</p>
+    </div>
+  </div>
+<div class=" relative w-56 h-24 rounded-xl overflow-hidden">
+  <img src="./image/mapel/sastra.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
+  <div class=" absolute inset-0 flex justify-center items-center">
+    <p class=" text-3xl font-black text-shadow-2xs text-shadow-white text-white">Sastra</p>
+  </div>
+</div>
+<div class=" relative w-56 h-24 rounded-xl overflow-hidden">
+  <img src="./image/mapel/filsafat.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
+  <div class=" absolute inset-0 flex justify-center items-center">
+    <p class=" text-3xl text-black font-black text-shadow-2xs text-shadow-black">Filsafat</p>
+  </div>
+</div>
   <!-- HERO: Profil -->
 <section class="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-md duration-300 shadow-black">
   <!-- Background Hero -->
@@ -142,20 +161,58 @@
     <p>“Dalam dunia yang keras, INFP adalah pengingat bahwa kelembutan adalah kekuatan.”</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
   </footer>
+  <div class="flex justify-evenly gap-10">
+  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+    <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
+  — Frodo Baggins</h1>
+  </div>
+  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
+    <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
+  — Naruto Uzumaki</h1> 
+  </div>
+  </div>
+
+  <div class=" flex w-[45%] justify-evenly items-center">
+    <div>
+      <h1 class="text-6xl pl-2 font-black text-black">Mata</h1>
+      <div class="relative w-fit h-fit overflow-hidden">
+      <p class="animated-bg text-6xl font-black text-black pr-2.5 pl-2 pb-2">
+      Pelajaran
+     </p>
+    </div>
+      <p class=" text-lg text-black">Setiap kepribadian memiliki cara unik dalam melihat dunia—begitu pula dalam memilih mata pelajaran. Bagi INFJ yang reflektif, idealis, dan penuh empati, mata pelajaran seperti Psikologi, Sastra, atau Filsafat sering menjadi ruang ekspresi sekaligus ladang eksplorasi makna yang dalam. Di sinilah kepribadian bertemu passion, membentuk perjalanan belajar yang benar-benar personal</p>
+    </div>
+    <div>
+      <div class="relative w-56 h-24 rounded-xl overflow-hidden">
+        <img src="./image/mapel/psikologi.jpg" alt="card" class="absolute inset-0 w-full h-full object-cover">
+      <div class=" absolute inset-0 flex justify-center items-center text-white text-3xl font-black z-10">
+        <p class="text-center text-shadow-xs text-black text-shadow-black">Psikologi</p>
+      </div>
+    </div>
+    <div class=" relative w-56 my-13 h-24 rounded-xl overflow-hidden">
+      <img src="./image/mapel/sastra.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
+      <div class=" absolute inset-0 flex justify-center items-center">
+        <p class=" text-3xl font-black text-shadow-2xs text-shadow-white text-white">Sastra</p>
+      </div>
+    </div>
+    <div class=" relative w-56 h-24 rounded-xl overflow-hidden">
+      <img src="./image/mapel/filsafat.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
+      <div class=" absolute inset-0 flex justify-center items-center">
+        <p class=" text-3xl text-black font-black text-shadow-2xs text-shadow-black">Filsafat</p>
+      </div>
+    </div>
+  </div> 
+  </div>
 </div>
 
-<div class="flex justify-evenly gap-10">
-<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
-  <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
-  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
-— Frodo Baggins</h1>
+<div class="relative w-fit h-fit overflow-hidden">
+  <p class="bg-accent-content text-4xl font-black text-black pr-2.5 pl-2 py-1">
+    Filsafat
+  </p>
 </div>
-<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
-  <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
-  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
-— Naruto Uzumaki</h1> 
-</div>
-</div>
+
 
 <style>
   .bg-sect{
