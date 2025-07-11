@@ -139,19 +139,19 @@
       <div class="relative w-56 h-24 rounded-xl overflow-hidden">
         <img src="./image/pekerjaan/psikolog.jpg" alt="card" class="absolute inset-0 w-full h-full object-cover">
       <div class=" absolute inset-0 flex justify-center items-center text-white text-3xl font-black z-10">
-        <p class="text-center text-shadow-xs text-black text-shadow-black">Psikolog</p>
+        <p class="text-center text-black ">Psikolog</p>
       </div>
     </div>
     <div class=" relative w-56 my-13 h-24 rounded-xl overflow-hidden">
       <img src="./image/pekerjaan/musisi.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
       <div class=" absolute inset-0 flex justify-center items-center">
-        <p class=" text-3xl font-black text-shadow-2xs text-shadow-black text-black">Artis</p>
+        <p class=" text-3xl font-black text-black">Artis</p>
       </div>
     </div>
     <div class=" relative w-56 h-24 rounded-xl overflow-hidden">
       <img src="./image/pekerjaan/penulis.jpg" alt="" class=" absolute inset-0 w-full h-full object-cover">
       <div class=" absolute inset-0 flex justify-center items-center">
-        <p class=" text-3xl text-black font-black text-shadow-2xs text-shadow-black">Musisi</p>
+        <p class=" text-3xl text-black font-black">Musisi</p>
       </div>
     </div>
   </div> 
@@ -187,11 +187,51 @@
 
 </div>
 
-<div class="relative w-fit h-fit overflow-hidden">
-  <p class="bg-accent-content text-4xl font-black text-black pr-2.5 pl-2 py-1">
-    Filsafat
-  </p>
-</div>
+<section class="my-10 px-6">
+  <h2 class="text-2xl font-bold mb-4">💘 Pasangan Cocok untuk INFJ</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <!-- Box 1 -->
+    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
+      <div class="flex items-center justify-center relative w-full">
+        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
+        
+        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
+        
+        <img src="./image/mbti-icon/INFP.png" alt="INFP" class="w-16 h-16 z-10" />
+      </div>
+      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 INFP</h3>
+      <p class="text-sm text-center text-gray-600">Twinflame – koneksi emosional dan spiritual yang dalam.</p>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
+      <div class="flex items-center justify-center relative w-full">
+        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
+        
+        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
+        
+        <img src="./image/mbti-icon/ENFP.png" alt="ENFP" class="w-16 h-16 z-10" />
+      </div>
+      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 ENFP</h3>
+      <p class="text-sm text-center text-gray-600">Dynamic Duo – saling melengkapi antara idealisme & spontanitas.</p>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
+      <div class="flex items-center justify-center relative w-full">
+        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
+        
+        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
+        
+        <img src="./image/mbti-icon/ENFJ.png" alt="ENFJ" class="w-16 h-16 z-10" />
+      </div>
+      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 ENFJ</h3>
+      <p class="text-sm text-center text-gray-600">Empath Pair – dua idealis yang saling support dan paham batin.</p>
+    </div>
+
+  </div>
+</section>
 
 
 <style>
