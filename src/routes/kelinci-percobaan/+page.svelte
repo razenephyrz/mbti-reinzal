@@ -2,51 +2,51 @@
 
 </script>
 
-<div class="p-6 space-y-8">
+
+<div class="p-6 space-y-8" style="background-image: url(./image/965641.jpg);">
+  <div class=" flex justify-around w-full p-5 bg-black/40 backdrop-blur-md ">
+    <a href="" class="sans text-green-500 ">Home</a>
+    <a href="" class="sans text-green-500 ">Types</a>
+    <a href="" class="sans text-green-500 ">Theory</a>
+    <a href="" class="sans text-green-500 ">Journey</a>
+  </div>
   <!-- HERO: Profil -->
-<section class="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-md duration-300 shadow-black">
+<section class="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-lg duration-300 shadow-black">
   <!-- Background Hero -->
-  <div class="h-full w-full bg-cover bg-center" style="background-image: url('/image/mbti-bg/infp-bg.jpg');">
+  <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm" >
     <!-- Overlay -->
-    <div class="h-full w-full bg-black/30 flex items-center justify-center">
-      
+    <div class="h-full w-full bg-black/30 flex items-center justify-center">  
       <!-- Isi tengah (grid 3 kolom) -->
       <div class="grid grid-cols-3 gap-6 items-center w-full px-6 text-white">
-
         <!-- Kiri: Nama + julukan -->
         <div class="text-center">
           <h1 class="text-5xl tracking-widest text-white text-shadow-black text-shadow-sm font-bold">INFP</h1>
           <p class="text-2xl text-white text-shadow-black  text-shadow-sm">The Mediator</p>
         </div>
-
         <!-- Tengah: Avatar -->
         <div class="flex justify-center">
           <img src="/image/mbti-illustration/INFP.png" alt="jir" class=" h-full w-auto rounded-xl shadow-lg object-cover" />
         </div>
-
         <!-- Kanan: Badges -->
         <div class="flex flex-wrap gap-2 text-xs md:text-sm">
-          <span class="badge bg-transparent border border-accent-content text-accent-content">Introverted</span>
-          <span class="badge bg-transparent border border-accent-content text-accent-content">Intuitive</span>
-          <span class="badge bg-transparent border border-accent-content text-accent-content">Feeling</span>
-          <span class="badge bg-transparent border border-accent-content text-accent-content">Perceiving</span>
+          <span class="badge bg-transparent border border-white text-white">Introverted</span>
+          <span class="badge bg-transparent border border-white text-white">Intuitive</span>
+          <span class="badge bg-transparent border border-white text-white">Feeling</span>
+          <span class="badge bg-transparent border border-white text-white">Perceiving</span>
         </div>
-
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-sect rounded-xl overflow-hidden shadow-lg mb-10 animated-bg shadow-black">
+<section class="backdrop-blur-md rounded-xl overflow-hidden shadow-lg mb-10 shadow-black">
   <!-- Judul Section -->
-  <div class="p-6 flex justify-between items-center rounded-xl shadow-white bg-white shadow">
-    <h2 class="text-2xl text-black font-bold mb-2">🎧 Lagu Cocok untuk INFP</h2>
-    <p class="text-md text-black">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
+  <div class="p-6 flex justify-between items-center rounded-xl bg-transparent">
+    <h2 class="text-2xl text-white font-bold mb-2">🎧 Lagu Cocok untuk INFP</h2>
+    <p class="text-md text-white">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
   </div>
-
   <!-- Daftar Lagu -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-evenly p-6">
-    
+  <div class="flex gap-6 justify-evenly p-6">
     <!-- Card 1 -->
     <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #90946Eff">
       <div class="p-4 flex flex-col items-center text-center">
@@ -73,7 +73,15 @@
         <p class="text-sm text-gray-300">Cigarettes After Sex</p>
       </div>
     </div>
-
+    
+    <!-- Card $ -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #1C1C1C">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/iwannabe.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">I Wanna Be Yours</h3>
+        <p class="text-sm text-gray-300">Arctic Monkeys</p>
+      </div>
+    </div>
     <!-- Tambah lagu lainnya tinggal copy paste di sini -->
     
   </div>
@@ -102,7 +110,7 @@
       Pelajaran
      </p>
     </div>
-      <p class=" text-lg text-black">Setiap kepribadian memiliki cara unik dalam melihat dunia—begitu pula dalam memilih mata pelajaran. Bagi INFJ yang reflektif, idealis, dan penuh empati, mata pelajaran seperti Psikologi, Sastra, atau Filsafat sering menjadi ruang ekspresi sekaligus ladang eksplorasi makna yang dalam. Di sinilah kepribadian bertemu passion, membentuk perjalanan belajar yang benar-benar personal</p>
+      <p class="sans tracking-wider text-lg text-white text-shadow-md shadow-black ">Setiap kepribadian memiliki cara unik dalam melihat dunia—begitu pula dalam memilih mata pelajaran. Bagi INFJ yang reflektif, idealis, dan penuh empati, mata pelajaran seperti Psikologi, Sastra, atau Filsafat sering menjadi ruang ekspresi sekaligus ladang eksplorasi makna yang dalam. Di sinilah kepribadian bertemu passion, membentuk perjalanan belajar yang benar-benar personal</p>
     </div>
     <div>
       <div class="relative w-56 h-24 rounded-xl overflow-hidden">
@@ -133,7 +141,7 @@
       Karir
      </p>
     </div>
-      <p class=" text-lg text-black">Setiap kepribadian memiliki cara unik dalam merespons dunia—begitu pula dalam memilih jalur hidup. Bagi INFJ yang visioner, peka, dan penuh makna batin, profesi seperti penulis, musisi, atau psikolog sering menjadi ruang aktualisasi sekaligus sarana menyentuh sisi terdalam kemanusiaan. Di sinilah kepribadian menyatu dengan panggilan, membentuk perjalanan karier yang utuh dan sarat makna.</p>
+      <p class="sans text-lg text-black">Setiap kepribadian memiliki cara unik dalam merespons dunia—begitu pula dalam memilih jalur hidup. Bagi INFJ yang visioner, peka, dan penuh makna batin, profesi seperti penulis, musisi, atau psikolog sering menjadi ruang aktualisasi sekaligus sarana menyentuh sisi terdalam kemanusiaan. Di sinilah kepribadian menyatu dengan panggilan, membentuk perjalanan karier yang utuh dan sarat makna.</p>
     </div>
     <div>
       <div class="relative w-56 h-24 rounded-xl overflow-hidden">
@@ -171,67 +179,8 @@
     <p>“Dalam dunia yang keras, INFP adalah pengingat bahwa kelembutan adalah kekuatan.”</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
   </footer>
-  <div class="flex justify-evenly gap-10">
-  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
-    <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
-    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
-  — Frodo Baggins</h1>
-  </div>
-  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black">
-    <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
-    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
-  — Naruto Uzumaki</h1> 
-  </div>
-  </div>
-
-
 </div>
 
-<section class="my-10 px-6">
-  <h2 class="text-2xl font-bold mb-4">💘 Pasangan Cocok untuk INFJ</h2>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-    <!-- Box 1 -->
-    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
-      <div class="flex items-center justify-center relative w-full">
-        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
-        
-        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
-        
-        <img src="./image/mbti-icon/INFP.png" alt="INFP" class="w-16 h-16 z-10" />
-      </div>
-      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 INFP</h3>
-      <p class="text-sm text-center text-gray-600">Twinflame – koneksi emosional dan spiritual yang dalam.</p>
-    </div>
-
-    <!-- Box 2 -->
-    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
-      <div class="flex items-center justify-center relative w-full">
-        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
-        
-        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
-        
-        <img src="./image/mbti-icon/ENFP.png" alt="ENFP" class="w-16 h-16 z-10" />
-      </div>
-      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 ENFP</h3>
-      <p class="text-sm text-center text-gray-600">Dynamic Duo – saling melengkapi antara idealisme & spontanitas.</p>
-    </div>
-
-    <!-- Box 3 -->
-    <div class="bg-base-200 rounded-xl p-6 flex flex-col items-center shadow-md">
-      <div class="flex items-center justify-center relative w-full">
-        <img src="./image/mbti-icon/INFJ.png" alt="INFJ" class="w-16 h-16 z-10" />
-        
-        <div class="absolute h-0.5 w-16 bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
-        
-        <img src="./image/mbti-icon/ENFJ.png" alt="ENFJ" class="w-16 h-16 z-10" />
-      </div>
-      <h3 class="font-semibold text-lg mt-4">INFJ 🤝 ENFJ</h3>
-      <p class="text-sm text-center text-gray-600">Empath Pair – dua idealis yang saling support dan paham batin.</p>
-    </div>
-
-  </div>
-</section>
 
 
 <style>
@@ -260,5 +209,8 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+  .sans {
+    font-family: Sans;
   }
 </style>
