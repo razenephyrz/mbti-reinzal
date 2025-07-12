@@ -8,28 +8,28 @@
   <!-- Background Hero -->
   <div class="h-full w-full bg-cover bg-center" style="background-image: url('/image/mbti-bg/infp-bg.jpg');">
     <!-- Overlay -->
-    <div class="h-full w-fullk bg-opacity-40 flex items-center justify-center">
+    <div class="h-full w-full bg-black/30 flex items-center justify-center">
       
       <!-- Isi tengah (grid 3 kolom) -->
       <div class="grid grid-cols-3 gap-6 items-center w-full px-6 text-white">
 
         <!-- Kiri: Nama + julukan -->
         <div class="text-center">
-          <h1 class="text-5xl text-shadow-black text-shadow-sm font-bold">INFP</h1>
-          <p class="text-2xl  text-shadow-black  text-shadow-sm">The Mediator</p>
+          <h1 class="text-5xl text-white text-shadow-black text-shadow-sm font-bold">INFP</h1>
+          <p class="text-2xl text-white text-shadow-black  text-shadow-sm">The Mediator</p>
         </div>
 
         <!-- Tengah: Avatar -->
         <div class="flex justify-center">
-          <img src="/image/mbti-illustration/INFP.png" alt="jir" class="h-full w-auto rounded-xl shadow-lg object-cover" />
+          <img src="/image/mbti-illustration/INFP.png" alt="jir" class=" h-full w-auto rounded-xl shadow-lg object-cover" />
         </div>
 
         <!-- Kanan: Badges -->
         <div class="flex flex-wrap gap-2 text-xs md:text-sm">
-          <span class="badge badge-primary shadow shadow-primary-content">Introverted</span>
-          <span class="badge badge-secondary shadow shadow-secondary-content">Intuitive</span>
-          <span class="badge badge-accent shadow shadow-accent-content">Feeling</span>
-          <span class="badge bg-primary text-green-300 border-0 shadow shadow-green-300">Perceiving</span>
+          <span class="badge bg-transparent border border-accent-content text-accent-content">Introverted</span>
+          <span class="badge bg-transparent border border-accent-content text-accent-content">Intuitive</span>
+          <span class="badge bg-transparent border border-accent-content text-accent-content">Feeling</span>
+          <span class="badge bg-transparent border border-accent-content text-accent-content">Perceiving</span>
         </div>
 
       </div>
@@ -45,10 +45,10 @@
   </div>
 
   <!-- Daftar Lagu -->
-  <div class="flex grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-evenly p-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-evenly p-6">
     
     <!-- Card 1 -->
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #90946Eff">
+    <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #90946Eff">
       <div class="p-4 flex flex-col items-center text-center">
         <img src="./image/billie.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
         <h3 class="font-semibold text-lg">Everything I Wanted</h3>
