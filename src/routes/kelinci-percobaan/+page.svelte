@@ -15,7 +15,7 @@
 
         <!-- Kiri: Nama + julukan -->
         <div class="text-center">
-          <h1 class="text-5xl text-white text-shadow-black text-shadow-sm font-bold">INFP</h1>
+          <h1 class="text-5xl tracking-widest text-white text-shadow-black text-shadow-sm font-bold">INFP</h1>
           <p class="text-2xl text-white text-shadow-black  text-shadow-sm">The Mediator</p>
         </div>
 
@@ -235,6 +235,9 @@
 
 
 <style>
+  h1 {
+    font-family: Sans;
+  }
   .bg-sect{
     background: linear-gradient(45deg, #4A7D59ff, #4176B5ff, #A9C748ff);
   }
