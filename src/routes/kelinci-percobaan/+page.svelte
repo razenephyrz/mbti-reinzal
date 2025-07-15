@@ -3,37 +3,51 @@
 </script>
 
 <!-- style="background-image: url(./image/965641.jpg);" -->
+<div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-green-700">
+<div>
+  <img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
+</div>
+<div class="flex justify-center gap-5 items-center">
+  <a href="/test" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
+  <a href="/types" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
+  <a href="/theory" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
+  <a href="#label" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
+</div>
+<div class="flex items-center gap-3">
+  <a href="#kanjau" class="font-semibold text-md text-primary">Login</a>
+  <button class="btn border-black text-black items-center mt-1 hover:btn-primary hover:text-primary-content">
+    Try Test
+  </button>
+</div>
+</div>
 <div class="p-6 space-y-8">
-  <div class=" flex rounded-sm justify-around w-full p-5 bg-black/40 backdrop-blur-md" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-    <a href="" class="sans text-green-500 ">Home</a>
-    <a href="" class="sans text-green-500 ">Types</a>
-    <a href="" class="sans text-green-500 ">Theory</a>
-    <a href="" class="sans text-green-500 ">Journey</a>
-  </div>
   <!-- HERO: Profil -->
-<section class="relative h-80 rounded-xl overflow-hidden  shadow-lg hover:shadow-lg duration-300 shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-  <!-- Background Hero -->
-  <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm" >
-    <!-- Overlay -->
-    <div class="h-full w-full bg-black/30 flex items-center justify-center">  
-      <!-- Isi tengah (grid 3 kolom) -->
-      <div class="grid grid-cols-3 gap-6 items-center w-full px-6 text-white">
-        <!-- Kiri: Nama + julukan -->
-        <div class="text-center">
-          <h1 class="text-5xl tracking-widest text-white text-shadow-black text-shadow-sm font-bold">INFP</h1>
-          <p class="text-2xl text-white text-shadow-black  text-shadow-sm">The Mediator</p>
-        </div>
-        <!-- Tengah: Avatar -->
-        <div class="flex justify-center">
-          <img src="/image/mbti-illustration/INFP.png" alt="jir" class=" h-full w-auto rounded-xl shadow-lg object-cover" />
-        </div>
-        <!-- Kanan: Badges -->
-        <div class="flex flex-wrap gap-2 text-xs md:text-sm">
-          <span class="badge bg-transparent border border-white text-white">Introverted</span>
-          <span class="badge bg-transparent border border-white text-white">Intuitive</span>
-          <span class="badge bg-transparent border border-white text-white">Feeling</span>
-          <span class="badge bg-transparent border border-white text-white">Perceiving</span>
-        </div>
+<section
+  class="relative h-96 rounded-xl overflow-hidden shadow-lg hover:shadow-xl duration-300 shadow-black"
+  style="background-image: url('./image/green-abstract-3840x2160-21853.png');"
+>
+  <!-- Lapisan blur transparan -->
+  <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm">
+    <!-- Overlay semi-gelap -->
+    <div class="h-full w-full bg-black/30 flex items-center px-10 py-4 justify-between">
+      <!-- Kiri: Deskripsi -->
+      <div class="text-white w-[55%] space-y-4">
+        <h1 class="text-5xl font-bold tracking-wider">INFP</h1>
+        <p class="text-2xl font-medium text-white/80">The Mediator</p>
+        <p class="text-md text-white/70">
+          INFP adalah pengembara batin yang penuh imajinasi dan nilai-nilai idealis.
+          Mereka mencari makna, kedalaman emosional, dan dunia yang lebih baik.
+        </p>
+        <a href="#detail" class="underline text-white/90 hover:text-green-300">Baca selengkapnya</a>
+      </div>
+
+      <!-- Kanan: Avatar -->
+      <div class="w-[35%] flex justify-center">
+        <img
+          src="/image/mbti-illustration/INFP.png"
+          alt="INFP Avatar"
+          class="h-80 w-auto rounded-xl object-cover shadow-lg hover:scale-105 transition duration-300"
+        />
       </div>
     </div>
   </div>
