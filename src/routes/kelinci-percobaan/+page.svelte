@@ -2,62 +2,78 @@
 
 </script>
 
+
 <!-- style="background-image: url(./image/965641.jpg);" -->
 <div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-green-700">
-<div>
-  <img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
+  <div>
+    <img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
+  </div>
+  <div class="flex justify-center gap-5 items-center">
+    <a href="/test" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
+    <a href="/types" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
+    <a href="/theory" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
+    <a href="#label" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
+  </div>
+  <div class="flex items-center gap-3">
+    <a href="#kanjau" class="font-semibold text-md text-primary">Login</a>
+    <button class="btn border-black text-black items-center mt-1 hover:btn-primary hover:text-primary-content">Try Test</button>
+  </div>
 </div>
-<div class="flex justify-center gap-5 items-center">
-  <a href="/test" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
-  <a href="/types" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
-  <a href="/theory" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
-  <a href="#label" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
-</div>
-<div class="flex items-center gap-3">
-  <a href="#kanjau" class="font-semibold text-md text-primary">Login</a>
-  <button class="btn border-black text-black items-center mt-1 hover:btn-primary hover:text-primary-content">
-    Try Test
-  </button>
-</div>
-</div>
+
+<!-- Page Container  -->
 <div class="p-6 space-y-8">
-  <!-- HERO: Profil -->
-<section
-  class="relative h-96 rounded-xl overflow-hidden shadow-lg hover:shadow-xl duration-300 shadow-black"
-  style="background-image: url('./image/green-abstract-3840x2160-21853.png');"
->
+
+ <!-- Hero -->
+<section class="relative h-96 rounded-xl overflow-hidden shadow-lg hover:shadow-xl duration-300 shadow-black" style="background-image: url('./image/green-abstract-3840x2160-21853.png');">
   <!-- Lapisan blur transparan -->
   <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm">
     <!-- Overlay semi-gelap -->
     <div class="h-full w-full bg-black/30 flex items-center px-10 py-4 justify-between">
       <!-- Kiri: Deskripsi -->
       <div class="text-white w-[55%] space-y-4">
-        <h1 class="text-5xl font-bold tracking-wider">INFP</h1>
+        <h1 class=" text-teal-700 text-5xl font-bold tracking-wider">INFP</h1>
         <p class="text-2xl font-medium text-white/80">The Mediator</p>
-        <p class="text-md text-white/70">
-          INFP adalah pengembara batin yang penuh imajinasi dan nilai-nilai idealis.
-          Mereka mencari makna, kedalaman emosional, dan dunia yang lebih baik.
-        </p>
-        <a href="#detail" class="underline text-white/90 hover:text-green-300">Baca selengkapnya</a>
+        <p class=" text-md text-white/70">INFP adalah pengembara batin yang penuh imajinasi dan nilai-nilai idealis. Mereka mencari makna, kedalaman emosional, dan dunia yang lebih baik.</p>
+        <div class=" flex gap-3.5">
+           <a href="#detail" class="badge p-3 poppins bg-white text-black">Introvert</a>
+           <a href="#detail" class="badge p-3 poppins bg-white text-black">Intuition</a>
+           <a href="#detail" class="badge p-3 poppins bg-white text-black">Feeling</a>
+           <a href="#detail" class="badge p-3 poppins bg-white text-black">Perceiving</a>
+        </div>
       </div>
-
       <!-- Kanan: Avatar -->
       <div class="w-[35%] flex justify-center">
         <img
           src="/image/mbti-illustration/INFP.png"
           alt="INFP Avatar"
-          class="h-80 w-auto rounded-xl object-cover shadow-lg hover:scale-105 transition duration-300"
-        />
+          class="h-80 w-auto rounded-xl object-cover shadow-lg hover:scale-105 transition duration-300"/>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Nav Content -->
+<section class=" w-full sans px-4">
+  <div class=" flex justify-between">
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">INFP</h1>
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">The Mediator</h1>
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">Introvert</h1>
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">Intuitive</h1>
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">Feeling</h1>
+    <h1 class=" relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-teal-700 text-lg font-bold">Perceiving</h1>
+  </div>
+</section>
+
+<!-- Content Details -->
+
+<hr>
+
+<!-- Content Lagu -->
 <section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
   <!-- Judul Section -->
   <div class="p-6 flex justify-between items-center rounded-xl bg-transparent">
-    <h2 class="text-2xl text-white font-bold mb-2">🎧 Lagu Cocok untuk INFP</h2>
-    <p class="text-md text-white">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
+    <h2 class="text-2xl text-white font-bold mb-2 sans">Lagu Cocok untuk INFP</h2>
+    <p class="sans text-md text-white">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
   </div>
   <!-- Daftar Lagu -->
   <div class="flex gap-6 justify-evenly p-6">
@@ -69,7 +85,6 @@
         <p class="text-sm text-gray-300">Billie Eilish</p>
       </div>
     </div>
-
     <!-- Card 2 -->
     <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #672702ff">
       <div class="p-4 flex flex-col items-center text-center">
@@ -78,7 +93,9 @@
         <p class="text-sm text-gray-300">Laufey</p>
       </div>
     </div>
-
+    <div class=" w-44 flex justify-center items-center">
+      <p class=" text-5xl">🎧</p>
+    </div>
     <!-- Card 3 -->
     <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #1C1C1C">
       <div class="p-4 flex flex-col items-center text-center">
@@ -87,8 +104,7 @@
         <p class="text-sm text-gray-300">Cigarettes After Sex</p>
       </div>
     </div>
-    
-    <!-- Card $ -->
+    <!-- Card 4 -->
     <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #1C1C1C">
       <div class="p-4 flex flex-col items-center text-center">
         <img src="./image/iwannabe.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
@@ -96,34 +112,29 @@
         <p class="text-sm text-gray-300">Arctic Monkeys</p>
       </div>
     </div>
-    <!-- Tambah lagu lainnya tinggal copy paste di sini -->
-    
   </div>
 </section>
 
+<!-- Content Character -->
 <div class="flex justify-evenly gap-10" >
-<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-  <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
-  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>
-— Frodo Baggins</h1>
-</div>
-<div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-  <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
-  <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>
-— Naruto Uzumaki</h1> 
-</div>
+  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+    <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>— Frodo Baggins</h1>
+  </div>
+  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+    <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>— Naruto Uzumaki</h1> 
+  </div>
 </div>
 
-   <!-- Mapel -->
-    <div class=" flex justify-evenly w-full">
-    <div class=" flex w-[45%] justify-evenly items-center">
+<!-- Content Mapel -->
+<div class=" flex justify-evenly w-full">
+  <div class=" flex w-[45%] justify-evenly items-center">
     <div>
       <h1 class="text-6xl pl-2 font-black text-black">Mata</h1>
       <div class="relative w-fit h-fit overflow-hidden">
-      <p class="animated-bg text-6xl font-black text-black pr-2.5 pl-2 pb-2">
-      Pelajaran
-     </p>
-    </div>
+        <p class="animated-bg text-6xl font-black text-black pr-2.5 pl-2 pb-2">Pelajaran</p>
+      </div>
       <p class="sans tracking-wider text-lg text-black text-shadow-md shadow-black ">Setiap kepribadian memiliki cara unik dalam melihat dunia—begitu pula dalam memilih mata pelajaran. Bagi INFJ yang reflektif, idealis, dan penuh empati, mata pelajaran seperti Psikologi, Sastra, atau Filsafat sering menjadi ruang ekspresi sekaligus ladang eksplorasi makna yang dalam. Di sinilah kepribadian bertemu passion, membentuk perjalanan belajar yang benar-benar personal</p>
     </div>
     <div>
@@ -146,14 +157,13 @@
       </div>
     </div>
   </div> 
-  </div>
-  <div class=" flex w-[45%] justify-evenly items-center">
-    <div>
-      <h1 class="text-6xl pl-2 font-black text-black">Jalur</h1>
-      <div class="relative w-fit h-fit overflow-hidden">
-      <p class="animated-bg text-6xl font-black text-black pr-2.5 pl-2 pb-2">
-      Karir
-     </p>
+</div>
+
+<div class=" flex w-[45%] justify-evenly items-center">
+  <div>
+    <h1 class="text-6xl pl-2 font-black text-black">Jalur</h1>
+    <div class="relative w-fit h-fit overflow-hidden">
+      <p class="animated-bg text-6xl font-black text-black pr-2.5 pl-2 pb-2">Karir</p>
     </div>
       <p class="sans text-lg text-black">Setiap kepribadian memiliki cara unik dalam merespons dunia—begitu pula dalam memilih jalur hidup. Bagi INFJ yang visioner, peka, dan penuh makna batin, profesi seperti penulis, musisi, atau psikolog sering menjadi ruang aktualisasi sekaligus sarana menyentuh sisi terdalam kemanusiaan. Di sinilah kepribadian menyatu dengan panggilan, membentuk perjalanan karier yang utuh dan sarat makna.</p>
     </div>
@@ -180,12 +190,14 @@
   </div>
 </div>
 
-  <!-- Footer -->
+<!-- Footer -->
 <footer class="text-center mt-12 text-sm text-gray-500">
     <hr class="my-4" />
     <p>“Dalam dunia yang keras, INFP adalah pengingat bahwa kelembutan adalah kekuatan.”</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
 </footer>
+
+
 
 <section class=" flex">
   <div>
@@ -225,7 +237,6 @@ Mereka bukan pahlawan yang suka sorotan, tetapi diam-diam, mereka bisa menjadi k
 </div>
 
 
-
 <style>
   h1 {
     font-family: Sans;
@@ -255,5 +266,15 @@ Mereka bukan pahlawan yang suka sorotan, tetapi diam-diam, mereka bisa menjadi k
   }
   .sans {
     font-family: Sans;
+    letter-spacing: 2px;
   }
+  .helvetica {
+    font-family: Helvetic;
+  }
+  .poppins {
+    font-family: Poppins;
+  }
+  .handwrite {
+    font-family: Handwrite;
+ }
 </style>
