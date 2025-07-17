@@ -4,7 +4,7 @@
 
 
 <!-- style="background-image: url(./image/965641.jpg);" -->
-<div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-green-700">
+<div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-green-700 duration-300">
   <div>
     <img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
   </div>
@@ -99,14 +99,10 @@
   
 </section>
 
-
 <!-- Content Lagu -->
+<h1 class=" text-center uppercase font-black text-6xl mt-28">Lagu untuk <span class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full font-black tracking-wider hover:text-green-700 duration-300">INFP</span></h1>
 <section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
   <!-- Judul Section -->
-  <div class="p-6 flex justify-between items-center rounded-xl bg-transparent">
-    <h2 class="text-2xl text-white font-bold mb-2 sans">Lagu Cocok untuk INFP</h2>
-    <p class="sans text-md text-white">Musik yang nyambung sama rasa dan imajinasi INFP.</p>
-  </div>
   <!-- Daftar Lagu -->
   <div class="flex gap-6 justify-evenly p-6">
     <!-- Card 1 -->
@@ -148,16 +144,36 @@
 </section>
 
 <!-- Content Character -->
-<div class="flex justify-evenly gap-10" >
-  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-    <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
-    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>— Frodo Baggins</h1>
-  </div>
-  <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-    <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
-    <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>— Naruto Uzumaki</h1> 
-  </div>
-</div>
+ <div class=" flex justify-between">
+   <div class=" bg-clip-text bg-[url(./image/green-abstract-3840x2160-21853.png)] ml-6">
+      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">CH</p>
+      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">AR</p>
+      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">AC</p>
+      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">TE</p>
+      <p class=" text-9xl sans bg-cover font-black text-transparent mb-3">RS</p>
+   </div>
+   <div>
+     <div class="flex flex-col justify-evenly gap-10" >
+       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center w-max pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+         <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>— Frodo Baggins</h1>
+       </div>
+       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+         <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>— Naruto Uzumaki</h1> 
+       </div>
+       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+         <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
+         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>— Frodo Baggins</h1>
+       </div>
+       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
+         <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
+         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>— Naruto Uzumaki</h1> 
+       </div>
+       
+    </div>
+   </div>
+ </div>
 
 <!-- Content Mapel -->
 <div class=" flex justify-evenly w-full">
