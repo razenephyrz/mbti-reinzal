@@ -144,41 +144,48 @@
 </section>
 
 <!-- Content Character -->
- <div class=" flex justify-between">
-   <div class=" bg-clip-text bg-[url(./image/green-abstract-3840x2160-21853.png)] ml-6">
-      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">CH</p>
-      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">AR</p>
-      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">AC</p>
-      <p class=" text-9xl sans bg-cover font-black text-transparent mb-4">TE</p>
-      <p class=" text-9xl sans bg-cover font-black text-transparent mb-3">RS</p>
-   </div>
-   <div>
-     <div class="flex flex-col justify-evenly gap-10" >
-       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center w-max pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-         <img src="./image/frodo-baggins.jpg" alt="kacard" class=" w-36 rounded-xl ">
-         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“There is light, and beauty up there, that no shadow can touch.” <br>— Frodo Baggins</h1>
-       </div>
-       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-         <img src="./image/naruto-uzumaki.jpg" alt="kacard" class=" w-36 rounded-xl ">
-         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“I’m not a hero. I’m a ninja who never gives up.” <br>— Naruto Uzumaki</h1> 
-       </div>
-       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-         <img src="./image/luna-lovegood.jpg" alt="kacard" class=" w-36 rounded-xl ">
-         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64 ">“Things we lose have a way of coming back to us in the end, if not always in the way we expect.” <br>— Luna Lovegood</h1>
-       </div>
-       <div class="flex bg-sect gap-5 rounded-xl justify-between items-center pr-5 shadow-md shadow-black" style="background-image: url(./image/green-abstract-3840x2160-21853.png);">
-         <img src="./image/layla-genshin.jpg" alt="kacard" class=" w-36 rounded-xl ">
-         <h1 class="text-white text-shadow-xs text-shadow-black font-medium w-64">“Sometimes I wonder if the stars ever get tired of watching us.” <br>— Layla (Genshin Impact)</h1> 
-       </div>
-       
-    </div>
-   </div>
- </div>
+<!-- <div class=" bg-clip-text bg-[url(./image/green-abstract-3840x2160-21853.png)] ml-6">
+</div> -->
+<p class="text-6xl md:text-9xl sans font-black mb-12 text-center" style="letter-spacing: 20px;">CHARACTERS</p>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4 md:px-10">
+  
+  <!-- Card 1 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/1316802.jpeg); background-size: cover; background-position: center;">
+    <img src="./image/frodo-baggins.jpg" alt="Frodo" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“There is light, and beauty up there, that no shadow can touch.”<br>— Frodo Baggins</h1>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/1316802.jpeg); background-size: cover; background-position: center;">
+    <img src="./image/naruto-uzumaki.jpg" alt="Naruto" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“I’m not a hero. I’m a ninja who never gives up.”<br>— Naruto Uzumaki</h1>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/1316802.jpeg); background-size: cover; background-position: center;">
+    <img src="./image/luna-lovegood.jpg" alt="Luna" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“Things we lose have a way of coming back to us in the end, if not always in the way we expect.”<br>— Luna Lovegood</h1>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/1316802.jpeg); background-size: cover; background-position: center;">
+    <img src="./image/layla-genshin.jpg" alt="Layla" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“Sometimes I wonder if the stars ever get tired of watching us.”<br>— Layla (Genshin Impact)</h1>
+  </div>
+
+</div>
+
+
 
 
 
 <!-- Mata Pelajaran (Tanpa Responsive, Flex Only) -->
-<section class=" w-full px-6 py-4 flex flex-col items-center gap-8 text-black">
+<section class=" w-full px-6 py-4 mt-44 flex flex-col items-center gap-8 text-black">
   <h1 class="text-5xl font-extrabold text-left">
     Mata <span class="bg-black text-white px-2 rounded">Pelajaran</span>
   </h1>
