@@ -1,63 +1,3 @@
-<script>
-  const characters = [
-  {
-    name: 'Frodo Baggins',
-    quote: 'There is light, and beauty up there, that no shadow can touch.',
-    img: './image/intj-folder/char-cilianMurphy.jpg'
-  },
-  {
-    name: 'Naruto Uzumaki',
-    quote: 'I’m not a hero. I’m a ninja who never gives up.',
-    img: './image/intj-folder/char-loidForger.jpg'
-  },
-  {
-    name: 'Luna Lovegood',
-    quote: 'Things we lose have a way of coming back to us in the end, if not always in the way we expect.',
-    img: './image/intj-folder/char-sasuke.jpg'
-  },
-  {
-    name: 'Layla (Genshin Impact)',
-    quote: 'Sometimes I wonder if the stars ever get tired of watching us.',
-    img: './image/intj-folder/char-suga.jpg'
-  }
-];
-const career = [
-    {
-      name: "Software Engineer",
-      desc: "INTJ memiliki pola pikir yang terstruktur, analitis, dan berorientasi pada sistem, menjadikan mereka sangat cocok di dunia rekayasa perangkat lunak.",
-      img: "./image/intj-folder/career1.jpg",
-    },
-    {
-      name: "Business Management",
-      desc: "Dengan kemampuan berpikir strategis dan pandangan jangka panjang, INTJ unggul dalam mengelola sistem yang kompleks seperti organisasi atau bisnis.",
-      img: "./image/intj-folder/career2.jpg",
-    },
-    {
-      name: "Scientist",
-      desc: "Sebagai tipe yang haus akan pemahaman mendalam, INTJ memiliki dorongan alami untuk meneliti, bereksperimen, dan menemukan pola yang tersembunyi di balik fenomena alam.",
-      img: "./image/intj-folder/career3.jpg",
-    },
-  ];
-const subjects = [
-    {
-      name: "Software Engineer",
-      desc: "INTJ cocok di bidang Informatika karena mereka analitis, strategis, dan menyukai sistem yang efisien.",
-      img: "./image/intj-folder/mapel1.jpg",
-    },
-    {
-      name: "Fisika",
-      desc: "INTJ sering tertarik dengan Fisika karena sifatnya yang konseptual dan berbasis teori.",
-      img: "./image/intj-folder/mapel2.jpg",
-    },
-    {
-      name: "Matematika",
-      desc: "Matematika cocok bagi INTJ karena menuntut pemikiran logis dan pola berpikir terstruktur.",
-      img: "./image/intj-folder/mapel3.jpg",
-    },
-  ];
-</script>
-
-
 <div class="navbar will-change-transform px-10 w-7xl rounded-lg py-2 flex justify-between outline mt-6 outline-black shadow-md hover:shadow-purple-700 duration-300">
   <div>
     <img src="/image/logo-mbti-web.png" class="h-12 w-auto" alt="MBTI Logo" />
@@ -154,166 +94,200 @@ const subjects = [
 </section>
 
 <!-- Content Lagu -->
-
-<section class="px-8 py-12 flex flex-col items-center">
-  <!-- Header -->
-  <div class="relative inline-block mb-10 group">
-    <h2
-      class="text-6xl font-extrabold tracking-tight leading-none pb-2 text-purple-700 relative"
-    >
-      Songs
-      <!-- underline animasi -->
-      <span
-        class="absolute bottom-0 left-0 w-0 h-[4px] bg-purple-700 transition-all duration-500 group-hover:w-full"
-      ></span>
-    </h2>
-  </div>
-
-  <!-- Flex Album List -->
-  <div
-    class="flex justify-between gap-10 mt-6"
-  >
-    {#each [
-      { img: './image/intj-folder/music1.jpg', title: "Gangsta’s Paradise", artist: "Coolio" },
-      { img: './image/intj-folder/music2.jpg', title: "Paradise", artist: "The Neighborhood" },
-      { img: './image/intj-folder/music3.jpg', title: "Midnights", artist: "Taylor Swift" },
-      { img: './image/intj-folder/music4.jpg', title: "Cigarettes Out the Window", artist: "TV Girl" }
-    ] as song}
-      <div
-        class="flex flex-col items-center text-center group p-5 rounded-xl transition duration-300 hover:bg-purple-700/10 hover:shadow-xl"
-      >
-        <img
-          src={song.img}
-          alt={song.title}
-          class="w-64 h-64 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform duration-300"
-        />
-        <div class="mt-4">
-          <h3
-            class="text-xl font-semibold text-gray-900 group-hover:text-purple-700 transition-colors duration-300"
-          >
-            {song.title}
-          </h3>
-          <p class="text-gray-500 group-hover:text-purple-600 transition-colors">
-            {song.artist}
-          </p>
-        </div>
+<h1 class=" text-center uppercase font-black text-6xl mt-28">Lagu untuk <span class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full font-black tracking-wider hover:text-green-700 duration-300">INTJ</span></h1>
+<section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/intj-folder/hero-wallpaper.jpg);">
+  <!-- Judul Section -->
+  <!-- Daftar Lagu -->
+  <div class="flex gap-6 justify-evenly p-6">
+    <!-- Card 1 -->
+    <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #580a4bff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/intj-folder/music-coolio.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Gangsta Paradise</h3>
+        <p class="text-sm text-gray-300">Coolio</p>
       </div>
-    {/each}
+    </div>
+    <!-- Card 2 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #000000ff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/intj-folder/music-neighborhood.jpg" alt="From the Start" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Private</h3>
+        <p class="text-sm text-gray-300">The Neighborhood</p>
+      </div>
+    </div>
+    <div class=" w-44 flex justify-center items-center">
+      <p class=" text-5xl">🎧</p>
+    </div>
+    <!-- Card 3 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #ff824cff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/intj-folder/music-taylor.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Midnight</h3>
+        <p class="text-sm text-gray-300">Taylor Swift</p>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #0021ddff">
+      <div class="p-4 flex flex-col items-center text-center">
+        <img src="./image/intj-folder/music-tvgirl.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
+        <h3 class="font-semibold text-lg">Cigarettes Out The window</h3>
+        <p class="text-sm text-gray-300">TV Girl</p>
+      </div>
+    </div>
   </div>
 </section>
-
-
 
 <!-- Content Character -->
 <!-- <div class=" bg-clip-text bg-[url(./image/green-abstract-3840x2160-21853.png)] ml-6">
 </div> -->
-<!-- CHARACTERS SECTION -->
-<section class="flex flex-wrap justify-center gap-10 py-16">
-  {#each characters as char}
-    <div class="group [perspective:1000px] cursor-pointer">
-      <div class="relative w-72 h-[420px] [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
-      <!-- FRONT -->
-        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-purple-700/10 border border-purple-200 backface-hidden">
-          <img src={char.img} alt={char.name} class="w-full h-full object-cover" />
-        </div>
+<p class="text-6xl md:text-9xl sans font-black mb-12 text-center" style="letter-spacing: 20px;">CHARACTERS</p>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4 md:px-10">
+  
+  <!-- Card 1 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/intj-folder/wallpaper-2.jpg); background-size: cover; background-position: center;">
+    <img src=".\image\intj-folder\char-cilianMurphy.jpg" alt="Frodo" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“There is light, and beauty up there, that no shadow can touch.”<br>— Frodo Baggins</h1>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/intj-folder/wallpaper-2.jpg); background-size: cover; background-position: center;">
+    <img src=".\image\intj-folder\char-loidForger.jpg" alt="Naruto" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“I’m not a hero. I’m a ninja who never gives up.”<br>— Naruto Uzumaki</h1>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/intj-folder/wallpaper-2.jpg); background-size: cover; background-position: center;">
+    <img src=".\image\intj-folder\char-sasuke.jpg" alt="Luna" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“Things we lose have a way of coming back to us in the end, if not always in the way we expect.”<br>— Luna Lovegood</h1>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="flex items-center gap-5 bg-black/60 rounded-xl shadow-lg backdrop-blur-md overflow-hidden"
+       style="background-image: url(./image/intj-folder/wallpaper-2.jpg); background-size: cover; background-position: center;">
+    <img src=".\image\intj-folder\char-suga.jpg" alt="Layla" class="w-36 h-48 object-cover rounded-l-xl">
+    <h1 class="text-white font-medium p-4">“Sometimes I wonder if the stars ever get tired of watching us.”<br>— Layla (Genshin Impact)</h1>
+  </div>
+
+</div>
 
 
-      <!-- BACK -->
-        <div class="absolute inset-0 bg-gradient-to-br from-purple-700 to-purple-900 text-white rounded-3xl flex flex-col justify-center items-center px-6 text-center [transform:rotateY(180deg)] backface-hidden">
-          <p class="italic text-lg mb-4">“{char.quote}”</p>
-          <h3 class="text-2xl font-bold">— {char.name}</h3>
-        </div>
+
+
+
+<!-- Mata Pelajaran (Tanpa Responsive, Flex Only) -->
+<section class="w-full px-6 py-4 mt-44 flex flex-col items-center gap-8 text-black">
+  <h1 class="text-5xl font-extrabold text-left">
+    Mata <span class="bg-black text-white px-2 rounded">Pelajaran</span>
+  </h1>
+
+  <div class="flex justify-center gap-20 w-full max-w-5xl">
+    <!-- Informatika -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/mapel1.jpg"
+        alt="Informatika"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Informatika
+        </h2>
       </div>
     </div>
-  {/each}
-</section>
 
-<!-- SUBJECTS SECTION -->
-<section class="min-h-screen md:px-12">
-  <!-- Judul -->
-  <div class="text-center mb-12">
-    <h1 class="text-4xl font-bold mb-3">
-      <span class="text-black">Mata</span>
-      <span class="bg-gradient-to-r from-purple-500 to-purple-700 text-white px-3 py-1 ml-2 shadow-md">
-        Pelajaran
-      </span>
-    </h1>
-    <p class="text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan INTJ</p>
-  </div>
-
-  <!-- Kartu -->
-  <div class="grid md:grid-cols-3 gap-6">
-    {#each subjects as s}
-      <div
-        class="group cursor-pointer transition-all duration-500 ease-out">
-        <!-- Gambar -->
-        <div class="overflow-hidden">
-          <img
-            src={s.img}
-            alt={s.name}
-            class="w-full h-[420px] object-cover transition-all duration-700 group-hover:brightness-75 group-hover:scale-[1.02]"
-          />
-        </div>
-
-        <!-- Teks -->
-        <div class="mt-4 px-1">
-          <h2 class="text-sm font-semibold tracking-wider text-gray-800 group-hover:text-purple-600 transition-colors duration-300">
-            {s.name}
-          </h2>
-          <p class="text-sm text-gray-600 mt-2 leading-relaxed">
-            {s.desc}
-          </p>
-        </div>
+    <!-- Fisika -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/mapel2.jpg"
+        alt="Fisika"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Fisika
+        </h2>
       </div>
-    {/each}
-  </div>
-</section>
+    </div>
 
-<section class="min-h-screen md:px-12">
-  <!-- Judul -->
-  <div class="text-center mb-20">
-    <h1 class="text-4xl font-bold mb-3">
-      <span class="text-black">Jalur</span>
-      <span class="bg-gradient-to-r from-purple-500 to-purple-700 text-white px-3 py-1 ml-2 shadow-md">
-        Karir
-      </span>
-    </h1>
-    <p class="text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian INTJ</p>
-  </div>
-
-  <!-- Kartu -->
-  <div class="grid md:grid-cols-3 gap-6">
-    {#each career as c}
-      <div
-        class="group cursor-pointer transition-all duration-500 ease-out">
-        <!-- Gambar -->
-        <div class="overflow-hidden">
-          <img
-            src={c.img}
-            alt={c.name}
-            class="w-full h-[420px] object-cover transition-all duration-700 group-hover:brightness-75 group-hover:scale-[1.02]"
-          />
-        </div>
-
-        <!-- Teks -->
-        <div class="mt-4 px-1">
-          <h2 class="text-sm font-semibold tracking-wider text-gray-800 group-hover:text-purple-600 transition-colors duration-300">
-            {c.name}
-          </h2>
-          <p class="text-sm text-gray-600 mt-2 leading-relaxed">
-            {c.desc}
-          </p>
-        </div>
+    <!-- Matematika -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/mapel3.jpg"
+        alt="Matematika"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Matematika
+        </h2>
       </div>
-    {/each}
+    </div>
   </div>
 </section>
+
+
+<!-- Jalur Karir (Tanpa Responsive, Flex Only) -->
+<section class="w-full px-6 py-4 mt-44 flex flex-col items-center gap-8 text-black">
+  <h1 class="text-5xl font-extrabold text-left">
+    Jalur <span class="bg-black text-white px-2 rounded">Karir</span>
+  </h1>
+
+  <div class="flex justify-center gap-20 w-full max-w-5xl">
+    <!-- Software -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/career1.jpg"
+        alt="Software"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Business
+        </h2>
+      </div>
+    </div>
+
+    <!-- Fisika -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/career2.jpg"
+        alt="Fisika"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Ilmuwan
+        </h2>
+      </div>
+    </div>
+
+    <!-- Matematika -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg w-60 h-80 group">
+      <img
+        src="./image/intj-folder/career3.jpg"
+        alt="Matematika"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-3xl font-bold text-black bg-white/70 px-4 py-2 rounded-xl backdrop-blur-sm">
+          Technology
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 </div>
 
 <!-- Footer -->
 <footer class="text-center mt-12 text-sm text-gray-500">
     <hr class="my-4" />
-    <p>“Di balik tatapan dingin INTJ, ada ketenangan yang dibangun dari pemikiran mendalam dan keyakinan pada arah yang mereka pilih.”</p>
+    <p>“Dalam dunia yang keras, INFP adalah pengingat bahwa kelembutan adalah kekuatan.”</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
 </footer>
 
@@ -338,52 +312,5 @@ const subjects = [
   }
   .handwrite {
     font-family: Handwrite;
-  }
-
-  .rotate-y-180 {
-  transform: rotateY(180deg);
-  }
-
+ }
 </style>
-
-
-<!-- <section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/intj-folder/hero-wallpaper.jpg);">
-
-  <div class="flex gap-6 justify-evenly p-6">
-
-    <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #580a4bff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-coolio.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Gangsta Paradise</h3>
-        <p class="text-sm text-gray-300">Coolio</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #000000ff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-neighborhood.jpg" alt="From the Start" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Private</h3>
-        <p class="text-sm text-gray-300">The Neighborhood</p>
-      </div>
-    </div>
-    <div class=" w-44 flex justify-center items-center">
-      <p class=" text-5xl">🎧</p>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #ff824cff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-taylor.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Midnight</h3>
-        <p class="text-sm text-gray-300">Taylor Swift</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #0021ddff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-tvgirl.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Cigarettes Out The window</h3>
-        <p class="text-sm text-gray-300">TV Girl</p>
-      </div>
-    </div>
-  </div>
-</section> -->
