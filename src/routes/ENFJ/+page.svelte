@@ -96,35 +96,35 @@
 const career = [
     {
       name: "Guru",
-      desc: "ENFJ sangat cocok menjadi guru karena mereka mampu menciptakan suasana belajar yang hangat, penuh motivasi, dan mudah dipahami siswa. Mereka tidak hanya mengajar materi, tetapi juga menanamkan nilai-nilai penting seperti empati, kerjasama, dan rasa percaya diri. ENFJ senang melihat perkembangan setiap murid dan merasa terpenuhi ketika dapat membantu mereka menemukan potensi terbaiknya. Pekerjaan ini memungkinkan ENFJ menjadi sosok yang berpengaruh positif dalam kehidupan banyak orang.",
-      img: "./image/intj-folder/career1.jpg",
+      desc: "Karakter suportif ENFJ menghidupkan proses belajar bermakna melalui bimbingan hangat yang menumbuhkan motivasi siswa langsung.",
+      img: "./image/enfj-folder/career1.jpg",
     },
     {
-      name: "Business Management",
-      desc: "Dengan kemampuan berpikir strategis dan pandangan jangka panjang, INTJ unggul dalam mengelola sistem yang kompleks seperti organisasi atau bisnis.",
-      img: "./image/intj-folder/career2.jpg",
+      name: "Pembicara",
+      desc: "Karisma kuat ENFJ memungkinkan penyampaian pesan inspiratif melalui narasi persuasif yang menggugah kesadaran banyak orang",
+      img: "./image/enfj-folder/career2.jpg",
     },
     {
-      name: "Scientist",
-      desc: "Sebagai tipe yang haus akan pemahaman mendalam, INTJ memiliki dorongan alami untuk meneliti, bereksperimen, dan menemukan pola yang tersembunyi di balik fenomena alam.",
-      img: "./image/intj-folder/career3.jpg",
+      name: "Aktivis Sosial",
+      desc: "Kepedulian besar ENFJ mendorong tindakan nyata dalam memperjuangkan perubahan sosial melalui advokasi konsisten bermakna sekali.",
+      img: "./image/enfj-folder/career3.jpg",
     },
   ];
 const subjects = [
     {
-      name: "Software Engineer",
-      desc: "INTJ cocok di bidang Informatika karena mereka analitis, strategis, dan menyukai sistem yang efisien.",
-      img: "./image/intj-folder/mapel1.jpg",
+      name: "Sosiologi",
+      desc: "IKemampuan memahami dinamika kelompok membuat ENFJ unggul menganalisis struktur sosial melalui lensa kemanusiaan mendalam sekali.",
+      img: "./image/enfj-folder/mapel1.jpg",
     },
     {
-      name: "Fisika",
-      desc: "INTJ sering tertarik dengan Fisika karena sifatnya yang konseptual dan berbasis teori.",
-      img: "./image/intj-folder/mapel2.jpg",
+      name: "Bahasa Indonesia",
+      desc: "Keterampilan komunikasi ENFJ mendukung penyampaian gagasan jelas melalui struktur bahasa yang terarah hangat dan mendalam",
+      img: "./image/enfj-folder/mapel2.jpg",
     },
     {
-      name: "Matematika",
-      desc: "Matematika cocok bagi INTJ karena menuntut pemikiran logis dan pola berpikir terstruktur.",
-      img: "./image/intj-folder/mapel3.jpg",
+      name: "Pendidikan Pancasila",
+      desc: "Nilai kepedulian ENFJ selaras dengan pembelajaran kewarganegaraan yang menekankan empati sosial tanggung jawab bersama kolektif.",
+      img: "./image/enfj-folder/mapel3.jpg",
     },
   ];
 let open = false;
@@ -134,7 +134,7 @@ let open = false;
 
 <div class="px-4 pt-1 md:p-5 space-y-8">
 
-<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-blue-500 duration-300 bg-white">
+<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-green-700 duration-300 bg-white">
   
   <!-- Logo -->
   <div>
@@ -143,16 +143,16 @@ let open = false;
 
   <!-- Desktop Menu -->
   <div class="hidden md:flex justify-center gap-6 items-center">
-    <a href="/test" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
-    <a href="/types" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
-    <a href="/theory" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
-    <a href="#label" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
+    <a href="/test" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Test</a>
+    <a href="/types" class="font-semibold text-accent hover:text-green-800 duration-300">Personality Type</a>
+    <a href="/theory" class="font-semibold text-accent hover:text-green-800 duration-300">Science Behind</a>
+    <a href="#label" class="font-semibold text-accent hover:text-green-800 duration-300">The Journey</a>
   </div>
 
   <!-- Desktop Action Buttons -->
   <div class="hidden md:flex items-center gap-3">
     <a href="/test">
-      <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+      <button class="btn border-black text-black items-center hover:btn-primary hover:text-green-300 hover:shadow-green-700 hover:shadow-md">
         Try Test
       </button>
     </a>
@@ -171,20 +171,20 @@ let open = false;
 
 <!-- Mobile Dropdown -->
 {#if open}
-  <div class="md:hidden mt-2 rounded-xl shadow-md outline hover:shadow-blue-700 outline-black bg-white px-6 py-4 space-y-4">
+  <div class="md:hidden mt-2 rounded-xl shadow-md outline hover:shadow-green-700 outline-black bg-white px-6 py-4 space-y-4">
     
     <!-- Menu Items -->
     <div class="flex flex-col gap-4">
-      <a href="/test" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Test</a>
-      <a href="/types" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Type</a>
-      <a href="/theory" class="font-semibold text-accent hover:text-blue-600 duration-200">Science Behind</a>
-      <a href="#label" class="font-semibold text-accent hover:text-blue-600 duration-200">The Journey</a>
+      <a href="/test" class="font-semibold text-accent hover:text-green-600 duration-200">Personality Test</a>
+      <a href="/types" class="font-semibold text-accent hover:text-green-600 duration-200">Personality Type</a>
+      <a href="/theory" class="font-semibold text-accent hover:text-green-600 duration-200">Science Behind</a>
+      <a href="#label" class="font-semibold text-accent hover:text-green-600 duration-200">The Journey</a>
     </div>
 
     <!-- Actions -->
     <div class="flex flex-col gap-3 pt-4">
       <a href="/test">
-        <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+        <button class="btn border-black text-black items-center hover:btn-primary hover:text-green-300 hover:shadow-green-600 hover:shadow-md">
           Try Test
         </button>
       </a>
@@ -241,12 +241,12 @@ let open = false;
 <!-- Nav Content -->
 <section class="w-full sans px-2 md:px-4 mb-16 md:mb-24 mt-8 md:mt-12">
   <div class="flex flex-wrap justify-between gap-2 md:gap-4">
-    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
-    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.alias}</a>
-    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
-    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
-    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
-    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
+    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
+    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.alias}</a>
+    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
+    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
+    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
+    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-green-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
   </div>
 </section>
 
@@ -255,7 +255,7 @@ let open = false;
 <section>
   {#each description as de}
     <div id={de.id} class="mb-12 md:mb-20">
-      <h1 class="text-3xl md:text-5xl lg:text-6xl helvetica font-black text-black/90 px-4 md:px-8 pb-4 mb-4 border-b-3 border-blue-600" style={de.position}>{de.header}</h1>
+      <h1 class="text-3xl md:text-5xl lg:text-6xl helvetica font-black text-black/90 px-4 md:px-8 pb-4 mb-4 border-b-3 border-green-600" style={de.position}>{de.header}</h1>
       <p class="text-base md:text-lg lg:text-xl helvetica text-black/70 px-4 md:px-0">{de.desc}</p>
     </div>
   {/each}
@@ -266,8 +266,8 @@ let open = false;
 <section class="px-4 md:px-8 py-8 md:py-12 flex flex-col items-center">
   <!-- Header -->
   <div class="relative inline-block mb-8 md:mb-10 group">
-    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none pb-2 text-blue-500 relative">Songs<span
-        class="absolute bottom-0 left-0 w-0 h-[4px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none pb-2 text-green-500 relative">Songs<span
+        class="absolute bottom-0 left-0 w-0 h-[4px] bg-green-500 transition-all duration-500 group-hover:w-full"></span>
     </h2>
   </div>
 
@@ -277,7 +277,7 @@ let open = false;
   >
     {#each songs as song}
       <div
-        class="flex flex-col items-center text-center group p-5 rounded-xl transition duration-300 hover:bg-blue-500/10 hover:shadow-xl w-full md:w-auto"
+        class="flex flex-col items-center text-center group p-5 rounded-xl transition duration-300 hover:bg-green-500/10 hover:shadow-xl w-full md:w-auto"
       >
         <img
           src={song.img}
@@ -286,11 +286,11 @@ let open = false;
         />
         <div class="mt-4">
           <h3
-            class="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-blue-500 transition-colors duration-300"
+            class="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-green-500 transition-colors duration-300"
           >
             {song.title}
           </h3>
-          <p class="text-sm md:text-base text-gray-500 group-hover:text-blue-400 transition-colors">
+          <p class="text-sm md:text-base text-gray-500 group-hover:text-green-400 transition-colors">
             {song.artist}
           </p>
         </div>
@@ -300,18 +300,24 @@ let open = false;
 </section>
 
 <!-- CHARACTERS SECTION -->
+<div class="flex mb-8 md:mb-1 justify-center w-full group">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight leading-none pb-2 text-green-500 relative">Characters<span
+        class="absolute bottom-0 left-0 w-0 h-[4px] bg-green-500 transition-all duration-500 group-hover:w-full"></span>
+    </h2>
+  </div>
 <section class="flex flex-wrap justify-center gap-6 md:gap-10 py-12 md:py-16 px-4 md:px-0">
+  
   {#each characters as char}
     <div class="group [perspective:1000px] cursor-pointer">
       <div class="relative w-56 md:w-64 lg:w-72 h-80 md:h-96 lg:h-[420px] [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
       <!-- FRONT -->
-        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-blue-700/10 border border-purple-200 backface-hidden">
+        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-green-700/10 border border-green-200 backface-hidden">
           <img src={char.img} alt={char.name} class="w-full h-full object-cover" />
         </div>
 
 
       <!-- BACK -->
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-800 text-white rounded-3xl flex flex-col justify-center items-center px-6 text-center [transform:rotateY(180deg)] backface-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-green-500 to-green-800 text-white rounded-3xl flex flex-col justify-center items-center px-6 text-center [transform:rotateY(180deg)] backface-hidden">
           <p class="italic text-base md:text-lg mb-4">"{char.quote}"</p>
           <h3 class="text-xl md:text-2xl font-bold">— {char.name}</h3>
         </div>
@@ -326,7 +332,7 @@ let open = false;
   <div class="text-center mb-12">
     <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
       <span class="text-black">Mata</span>
-      <span class="bg-gradient-to-r from-blue-300 to-blue-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
+      <span class="bg-gradient-to-r from-green-300 to-green-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
         Pelajaran
       </span>
     </h1>
@@ -349,7 +355,7 @@ let open = false;
 
         <!-- Teks -->
         <div class="mt-4 px-1">
-          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-blue-400 transition-colors duration-300">
+          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-green-400 transition-colors duration-300">
             {s.name}
           </h2>
           <p class="text-xs md:text-sm text-gray-600 mt-2 leading-relaxed">
@@ -365,7 +371,7 @@ let open = false;
   <!-- Judul -->
   <div class="text-center mb-12 md:mb-20">
     <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
-      <span class="bg-gradient-to-r from-blue-300 to-blue-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
+      <span class="bg-gradient-to-r from-green-300 to-green-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
         Jalur
       </span>
       <span class="text-black">Karir</span>
@@ -389,7 +395,7 @@ let open = false;
 
         <!-- Teks -->
         <div class="mt-4 px-1">
-          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-blue-400 transition-colors duration-300">
+          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-green-400 transition-colors duration-300">
             {c.name}
           </h2>
           <p class="text-xs md:text-sm text-gray-600 mt-2 leading-relaxed">
