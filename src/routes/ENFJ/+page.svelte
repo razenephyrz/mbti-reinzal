@@ -113,7 +113,7 @@ const career = [
 const subjects = [
     {
       name: "Sosiologi",
-      desc: "IKemampuan memahami dinamika kelompok membuat ENFJ unggul menganalisis struktur sosial melalui lensa kemanusiaan mendalam sekali.",
+      desc: "Kemampuan memahami dinamika kelompok membuat ENFJ unggul menganalisis struktur sosial melalui lensa kemanusiaan mendalam sekali.",
       img: "./image/enfj-folder/mapel1.jpg",
     },
     {
@@ -213,7 +213,7 @@ let open = false;
       </div>
 
       <!-- Kiri Mobile / Kanan Desktop: Text -->
-      <div class="text-white w-full md:w-[55%] space-y-4 text-center md:text-left">
+      <div class="text-green-600 w-full md:w-[55%] space-y-4 text-center md:text-left">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">
           {hero.mbti}
         </h1>
@@ -336,7 +336,7 @@ let open = false;
         Pelajaran
       </span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -376,7 +376,7 @@ let open = false;
       </span>
       <span class="text-black">Karir</span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->

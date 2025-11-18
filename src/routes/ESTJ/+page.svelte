@@ -2,51 +2,51 @@
   const hero = 
   { 
     logo : './image/logo-mbti-web.png',
-    herowp : "background-image: url('./image/istj-folder/wallpaper.png');",
-    mbti : "ISTJ",
-    alias : "The Perfectionist",
-    desc : "INTJ adalah arsitek pemikiran yang visioner dan strategis. Mereka mencari pola, efisiensi, serta cara paling logis untuk mewujudkan visi jangka panjang.",
-    icon1 : "Introvert",
+    herowp : "background-image: url('./image/estj-folder/wallpaper.png');",
+    mbti : "ESTJ",
+    alias : "The Executive",
+    desc : "ESTJ adalah pengarah sistem yang tegas dan terorganisir. Mereka mencari efisiensi, kejelasan prosedur, serta cara paling efektif untuk menata struktur besar agar berfungsi disiplin, kuat, dan dapat diandalkan.",
+    icon1 : "Extrovert",
     icon2 : "Sensing",
     icon3 : "Thinking",
     icon4 : "Judging",
-    mbticon : "./image/mbti-illustration/ISTJ.png"
+    mbticon : "./image/mbti-illustration/ESTJ.png"
   }
   const description = [
     {
       id : "intj",
-      header : "ISTJ",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "ESTJ",
+      desc : "ESTJ, kamu adalah pribadi yang tegas, terorganisir, dan sangat fokus pada efisiensi serta keteraturan. Kamu suka memastikan segala sesuatu berjalan sesuai aturan, rencana, dan standar yang jelas. Kamu bukan hanya tahu apa yang harus dilakukan—kamu bergerak cepat untuk mengeksekusinya. Kamu melihat dunia sebagai sesuatu yang membutuhkan struktur yang kuat, keputusan yang konsisten, dan langkah nyata yang membawa hasil. Kamu dikenal sebagai seseorang yang dapat diandalkan untuk memimpin, mengatur, dan menjaga stabilitas dalam berbagai situasi",
       position : "text-align: left;",
     },
     {
       id : "theanalyst",
-      header : "The Logistician",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "The Executive",
+      desc : "ESTJ mendapat julukan ini karena kamu secara alami berperan sebagai pengarah, pengelola, dan pengawas sistem agar semuanya berjalan dengan rapi. Kamu ahli dalam menyusun prosedur, menetapkan standar, dan memastikan orang-orang mengikuti jalur yang benar. Kamu menyukai ketegasan, kejelasan, dan tata aturan karena semua itu menciptakan lingkungan yang stabil dan efisien. Kamu seperti tulang punggung yang menjaga agar segalanya tetap berjalan tanpa hambatan",
       position : "text-align: center;",
     },
     {
       id : "introvert",
-      header : "Introvert",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "Extrovert",
+      desc : "Kamu extravert karena kamu mendapat energi lewat interaksi sosial, diskusi langsung, dan aktivitas yang melibatkan banyak orang. Kamu merasa lebih hidup ketika bisa berada di lapangan, memberi arahan, atau menyatukan orang dalam sebuah tujuan bersama. Kamu tidak ragu mengambil alih situasi dan membuat keputusan yang diperlukan. Lingkungan sosial menjadi tempat kamu mempraktikkan kepemimpinan alami yang kamu miliki.",
       position : "text-align: right;",
     },
     {
       id : "intuitive",
       header : "Sensing",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu sensing karena kamu berfokus pada fakta konkret, prosedur jelas, dan detail praktis yang bisa diamati. Kamu lebih percaya pada pengalaman nyata daripada teori spekulatif. Kamu mengandalkan data, langkah terstruktur, dan bukti yang jelas ketika menyelesaikan tugas. Bagimu, pendekatan yang teruji lebih dapat diandalkan dibanding ide-ide abstrak yang belum terbukti",
       positions : "text-align: left;",
     },
     {
       id : "thinking",
       header : "Thinking",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu thinking karena kamu mengambil keputusan berdasarkan logika, objektivitas, dan pertimbangan rasional. Kamu menghargai kejelasan, keadilan yang konsisten dengan aturan, serta hasil yang efisien. Dalam situasi sulit, kamu memilih solusi yang paling logis meskipun mungkin terasa tegas. Kamu percaya bahwa struktur dan ketegasan menghasilkan hasil yang lebih stabil dan dapat diprediksi.",
       position : "text-align: center;",
     },
     {
       id : "judging",
       header : "Judging",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu judging karena kamu suka rencana yang jelas, jadwal yang teratur, dan kemajuan yang terukur. Kamu tidak nyaman dengan kekacauan, ketidakpastian, atau proses yang tidak memiliki arah. Kamu menyukai keputusan yang cepat dan sistem yang rapi sehingga segala sesuatu bisa bergerak efektif. Bagimu, keteraturan adalah dasar dari produktivitas.",
       position : "text-align: right;",
     },
     
@@ -54,77 +54,77 @@
   ]
   const songs = [
   { 
-    img: './image/istj-folder/music1.jpg', 
-    title: "Gangsta’s Paradise", 
-    artist: "Coolio" 
+    img: './image/estj-folder/music1.jpg', 
+    title: "Ferrari", 
+    artist: "The Neighbourhood" 
   },
-  { img: './image/istj-folder/music2.jpg',
-    title: "Paradise", 
-    artist: "The Neighborhood" 
+  { img: './image/estj-folder/music2.jpg',
+    title: "Kill This Love", 
+    artist: "BLACKPINK" 
   },
-  { img: './image/istj-folder/music3.jpg',
-    title: "Midnights", 
-    artist: "Taylor Swift" 
+  { img: './image/estj-folder/music3.jpg',
+    title: "Money", 
+    artist: "The Beatles" 
   },
-  { img: './image/istj-folder/music4.jpg', 
-    title: "Cigarettes Out the Window", 
-    artist: "TV Girl" 
+  { img: './image/estj-folder/music4.jpg', 
+    title: "Shut Up", 
+    artist: "Ariana Grande" 
   }
   ]
   const characters = [
   {
-    name: 'Cillian Murphy',
-    quote: 'I am interested in characters who are flawed, because that is what makes them human.',
-    img: './image/istj-folder/char1.jpg'
+    name: 'Mulan',
+    quote: 'Courage means taking action when responsibility calls your name.',
+    img: './image/estj-folder/char1.jpg'
   },
   {
-    name: 'Loid Forger',
-    quote: 'I’m not doing this because I want to. It’s just part of the mission.',
-    img: './image/istj-folder/char2.jpg'
+    name: 'Li Shang',
+    quote: 'Strength comes from discipline, strategy, and leading by example.',
+    img: './image/estj-folder/char2.jpg'
   },
   {
-    name: 'Uchiha Sasuke',
-    quote: 'I have long since closed my eyes... My only goal is in the darkness.',
-    img: './image/istj-folder/char3.jpg'
+    name: 'Dwight Eisenhower',
+    quote: 'Planning well ensures success long before the battle begins.',
+    img: './image/estj-folder/char3.jpg'
   },
   {
-    name: 'Suga (BTS)',
-    quote: 'I’m the one I should love in this world.',
-    img: './image/istj-folder/char4.jpg'
+    name: 'Indra Nooyi',
+    quote: 'Leadership demands clarity, structure, and relentless hard work.',
+    img: './image/estj-folder/char4.jpg'
   }
 ];
 const career = [
     {
-      name: "Software Engineer",
-      desc: "INTJ memiliki pola pikir yang terstruktur, analitis, dan berorientasi pada sistem, menjadikan mereka sangat cocok di dunia rekayasa perangkat lunak.",
-      img: "./image/intj-folder/career1.jpg",
+      name: "Kepala Sekolah",
+      desc: "Kepemimpinan tegas ESTJ mengarahkan manajemen sekolah melalui keputusan jelas yang menjaga disiplin serta efisiensi",
+      img: "./image/estj-folder/career1.jpg",
     },
     {
-      name: "Business Management",
-      desc: "Dengan kemampuan berpikir strategis dan pandangan jangka panjang, INTJ unggul dalam mengelola sistem yang kompleks seperti organisasi atau bisnis.",
-      img: "./image/intj-folder/career2.jpg",
+      name: "Manajer Proyek",
+      desc: "Organisasi kuat ESTJ mengawal proyek selesai tepat waktu melalui koordinasi sistematis yang memastikan setiap detail terkontrol",
+      img: "./image/estj-folder/career2.jpg",
     },
     {
-      name: "Scientist",
-      desc: "Sebagai tipe yang haus akan pemahaman mendalam, INTJ memiliki dorongan alami untuk meneliti, bereksperimen, dan menemukan pola yang tersembunyi di balik fenomena alam.",
-      img: "./image/intj-folder/career3.jpg",
+      name: "Tentara",
+      desc: "Organisasi kuat ESTJ mengawal proyek selesai tepat waktu melalui koordinasi sistematis yang memastikan setiap detail terkontrol.",
+      img: "./image/estj-folder/career3.jpg",
     },
   ];
 const subjects = [
     {
-      name: "Software Engineer",
-      desc: "INTJ cocok di bidang Informatika karena mereka analitis, strategis, dan menyukai sistem yang efisien.",
-      img: "./image/intj-folder/mapel1.jpg",
+      name: "Pendidikan Pancasila",
+      desc: "Sikap tegas ESTJ mendukung pemahaman kewarganegaraan melalui nilai kedisiplinan serta kepatuhan terhadap aturan berlaku bersama",
+      img: "./image/estj-folder/mapel1.jpg",
     },
     {
-      name: "Fisika",
-      desc: "INTJ sering tertarik dengan Fisika karena sifatnya yang konseptual dan berbasis teori.",
-      img: "./image/intj-folder/mapel2.jpg",
+      name: "Ekonomi",
+      desc: "Logika praktis ESTJ cocok mempelajari alur ekonomi melalui analisis efisiensi dan pengelolaan sumber daya terencana.",
+      img: "./image/estj-folder/mapel2.jpg",
     },
     {
       name: "Matematika",
-      desc: "Matematika cocok bagi INTJ karena menuntut pemikiran logis dan pola berpikir terstruktur.",
-      img: "./image/intj-folder/mapel3.jpg",
+      desc: "Struktur berpikir jernih ESTJ memudahkan perhitungan numerik melalui langkah rasional yang teratur sistematis konsisten",
+      img: "./image/estj-folder/mapel3.jpg",
     },
   ];
 let open = false;
@@ -134,7 +134,7 @@ let open = false;
 
 <div class="px-4 pt-1 md:p-5 space-y-8">
 
-<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-blue-500 duration-300 bg-white">
+<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-blue-700 duration-300 bg-white">
   
   <!-- Logo -->
   <div>
@@ -152,7 +152,7 @@ let open = false;
   <!-- Desktop Action Buttons -->
   <div class="hidden md:flex items-center gap-3">
     <a href="/test">
-      <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+      <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-700 hover:shadow-md">
         Try Test
       </button>
     </a>
@@ -196,8 +196,7 @@ let open = false;
  <!-- Hero -->
 <section
   class="relative h-auto md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-lg hover:shadow-xl duration-300 shadow-black"
-  style={hero.herowp}
->
+  style={hero.herowp}>
   <!-- Background -->
   <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm">
     <!-- Overlay -->
@@ -214,7 +213,7 @@ let open = false;
       </div>
 
       <!-- Kiri Mobile / Kanan Desktop: Text -->
-      <div class="text-white w-full md:w-[55%] space-y-4 text-center md:text-left">
+      <div class="text-blue-600 w-full md:w-[55%] space-y-4 text-center md:text-left">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">
           {hero.mbti}
         </h1>
@@ -301,12 +300,18 @@ let open = false;
 </section>
 
 <!-- CHARACTERS SECTION -->
+<div class="flex mb-8 md:mb-1 justify-center w-full group">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight leading-none pb-2 text-blue-500 relative">Characters<span
+        class="absolute bottom-0 left-0 w-0 h-[4px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
+    </h2>
+  </div>
 <section class="flex flex-wrap justify-center gap-6 md:gap-10 py-12 md:py-16 px-4 md:px-0">
+  
   {#each characters as char}
     <div class="group [perspective:1000px] cursor-pointer">
       <div class="relative w-56 md:w-64 lg:w-72 h-80 md:h-96 lg:h-[420px] [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
       <!-- FRONT -->
-        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-blue-700/10 border border-purple-200 backface-hidden">
+        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-green-700/10 border border-blue-200 backface-hidden">
           <img src={char.img} alt={char.name} class="w-full h-full object-cover" />
         </div>
 
@@ -331,7 +336,7 @@ let open = false;
         Pelajaran
       </span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -371,7 +376,7 @@ let open = false;
       </span>
       <span class="text-black">Karir</span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -438,78 +443,3 @@ let open = false;
   }
 
 </style>
-
-
-<!-- <section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/intj-folder/hero-wallpaper.jpg);">
-
-  <div class="flex gap-6 justify-evenly p-6">
-
-    <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #580a4bff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-coolio.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Gangsta Paradise</h3>
-        <p class="text-sm text-gray-300">Coolio</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #000000ff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-neighborhood.jpg" alt="From the Start" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Private</h3>
-        <p class="text-sm text-gray-300">The Neighborhood</p>
-      </div>
-    </div>
-    <div class=" w-44 flex justify-center items-center">
-      <p class=" text-5xl">🎧</p>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #ff824cff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-taylor.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Midnight</h3>
-        <p class="text-sm text-gray-300">Taylor Swift</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #0021ddff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-tvgirl.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Cigarettes Out The window</h3>
-        <p class="text-sm text-gray-300">TV Girl</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- <section>
-  <div id="intj" class=" mb-20">
-    <h1 class=" text-6xl text-left helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.mbti}</h1>
-  <p class=" text-xl helvetica text-black/70">Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.
-  </p>
-  </div>
-  <div id="theanalyst" class=" mb-20">
-    <h1 class=" text-6xl text-center helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.alias}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="introvert" class=" mb-20">
-    <h1 class=" text-6xl text-right helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon1}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="intuitive" class=" mb-20">
-    <h1 class=" text-6xl text-left helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon2}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="thinking" class=" mb-20">
-    <h1 class=" text-6xl text-center helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon3}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div>
-    <h1 id="judging" class=" text-6xl text-right helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon4}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  
-</section> -->

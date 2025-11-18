@@ -2,51 +2,51 @@
   const hero = 
   { 
     logo : './image/logo-mbti-web.png',
-    herowp : "background-image: url('./image/istj-folder/wallpaper.png');",
-    mbti : "ISTJ",
-    alias : "The Perfectionist",
-    desc : "INTJ adalah arsitek pemikiran yang visioner dan strategis. Mereka mencari pola, efisiensi, serta cara paling logis untuk mewujudkan visi jangka panjang.",
-    icon1 : "Introvert",
-    icon2 : "Sensing",
+    herowp : "background-image: url('./image/entj-folder/wallpaper.png');",
+    mbti : "ENTJ",
+    alias : "The Commander",
+    desc : "ENTJ adalah penggerak keputusan yang kuat dan strategis. Mereka mencari efektivitas, ketertiban, serta cara paling menentukan untuk mengarahkan sumber daya menuju tujuan besar yang terstruktur dan berdampak luas.",
+    icon1 : "Extrovert",
+    icon2 : "Intuition",
     icon3 : "Thinking",
     icon4 : "Judging",
-    mbticon : "./image/mbti-illustration/ISTJ.png"
+    mbticon : "./image/mbti-illustration/ENTJ.png"
   }
   const description = [
     {
       id : "intj",
-      header : "ISTJ",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "ENTJ",
+      desc : "ENTJ, kamu adalah pribadi yang tegas, visioner, dan sangat terstruktur dalam berpikir maupun bertindak. Kamu punya dorongan alami untuk mengambil alih situasi, menyusun strategi, dan membawa sebuah sistem menuju hasil yang lebih efisien dan ambisius. Kamu melihat dunia sebagai sesuatu yang bisa dioptimalkan, direorganisasi, dan ditingkatkan melalui logika serta arah yang jelas. Kamu bukan hanya pemikir—kamu adalah pelaksana. Ketika kamu punya visi, kamu bergerak cepat dan memastikan semua orang yang terlibat tahu apa yang harus dilakukan",
       position : "text-align: left;",
     },
     {
       id : "theanalyst",
-      header : "The Logistician",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "The Commander",
+      desc : "ENTJ mendapat julukan ini karena kamu memiliki kemampuan untuk memimpin secara alami, membuat keputusan tegas, dan menyusun strategi jangka panjang dengan presisi. Kamu adalah tipe yang melihat masalah sebagai tantangan yang harus ditaklukkan. Kamu pandai menganalisis langkah-langkah yang dibutuhkan, mengorganisasi orang, dan memastikan rencana berjalan sesuai tujuan. Kamu bukan hanya melihat apa yang sedang terjadi—kamu memikirkan apa yang seharusnya terjadi, lalu membuatnya nyata",
       position : "text-align: center;",
     },
     {
       id : "introvert",
-      header : "Introvert",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "Extrovert",
+      desc : "Kamu adalah extravert karena kamu mendapat energi dari interaksi, diskusi, aksi nyata, dan dinamika sosial yang hidup. Kamu merasa lebih hidup ketika bisa memimpin rapat, berdebat, atau mengarahkan sebuah tim. Kamu cepat bergerak, cepat mengambil keputusan, dan cenderung merasa lebih nyaman ketika berperan aktif di pusat kegiatan daripada diam menunggu. Dunia luar memberi kamu ruang untuk menguji ide dan mendorong progres",
       position : "text-align: right;",
     },
     {
       id : "intuitive",
-      header : "Sensing",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      header : "Intuition",
+      desc : "Kamu adalah intuitive karena kamu berpikir dalam skala besar, melihat pola, dan membangun visi jangka panjang. Kamu tertarik pada konsep, strategi, serta perubahan sistemik. Kamu bukan tipe yang hanya fokus pada detail kecil atau rutinitas harian—kamu memikirkan efek domino, peluang di balik peluang, dan bagaimana suatu langkah kecil bisa menggeser arah masa depan. Kamu selalu melihat gambaran besar sebelum bergerak",
       positions : "text-align: left;",
     },
     {
       id : "thinking",
       header : "Thinking",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu adalah thinking karena kamu berorientasi pada logika, objektivitas, dan efisiensi saat membuat keputusan. Kamu menilai sesuatu berdasarkan struktur argumen, data, dan rasionalitas, bukan perasaan atau pertimbangan emosional. Kamu menghargai kejelasan, ketegasan, dan solusi yang paling efektif. Kamu bisa sangat direct karena kamu fokus pada hasil dan integritas logis, bukan pada rasa nyaman orang lain",
       position : "text-align: center;",
     },
     {
       id : "judging",
       header : "Judging",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu termasuk judging karena kamu menyukai ketertiban, kepastian arah, dan rencana yang terstruktur. Kamu tidak nyaman dengan ketidakjelasan atau kemajuan yang lambat. Kamu ingin tahu apa targetnya, bagaimana mencapainya, siapa yang bertanggung jawab, dan kapan langkah dieksekusi. Kamu suka menyelesaikan sesuatu hingga tuntas, membuat sistem, dan memastikan semuanya berada di jalur yang benar. Bagi kamu, rencana adalah alat untuk mengatur kekacauan dan mengubahnya menjadi hasil konkret.",
       position : "text-align: right;",
     },
     
@@ -54,77 +54,77 @@
   ]
   const songs = [
   { 
-    img: './image/istj-folder/music1.jpg', 
-    title: "Gangsta’s Paradise", 
-    artist: "Coolio" 
+    img: './image/entj-folder/music1.jpg', 
+    title: "Stronger", 
+    artist: "Kanye West" 
   },
-  { img: './image/istj-folder/music2.jpg',
-    title: "Paradise", 
-    artist: "The Neighborhood" 
-  },
-  { img: './image/istj-folder/music3.jpg',
-    title: "Midnights", 
+  { img: './image/entj-folder/music2.jpg',
+    title: "The Man", 
     artist: "Taylor Swift" 
   },
-  { img: './image/istj-folder/music4.jpg', 
-    title: "Cigarettes Out the Window", 
-    artist: "TV Girl" 
+  { img: './image/entj-folder/music3.jpg',
+    title: "Believer", 
+    artist: "Imagine Dragons" 
+  },
+  { img: './image/entj-folder/music4.jpg', 
+    title: "Lose Yourself", 
+    artist: "Eminem" 
   }
   ]
   const characters = [
   {
-    name: 'Cillian Murphy',
-    quote: 'I am interested in characters who are flawed, because that is what makes them human.',
-    img: './image/istj-folder/char1.jpg'
+    name: 'Erwin Smith',
+    quote: 'Victory demands decisions made with unwavering conviction and vision',
+    img: './image/entj-folder/char1.jpg'
   },
   {
-    name: 'Loid Forger',
-    quote: 'I’m not doing this because I want to. It’s just part of the mission.',
-    img: './image/istj-folder/char2.jpg'
+    name: 'Steve Jobs',
+    quote: 'I shape the future by rejecting limits others accept',
+    img: './image/entj-folder/char2.jpg'
   },
   {
-    name: 'Uchiha Sasuke',
-    quote: 'I have long since closed my eyes... My only goal is in the darkness.',
-    img: './image/istj-folder/char3.jpg'
+    name: 'Tony Stark',
+    quote: 'If there’s no solution yet, I’ll build one myself',
+    img: './image/entj-folder/char3.jpg'
   },
   {
-    name: 'Suga (BTS)',
-    quote: 'I’m the one I should love in this world.',
-    img: './image/istj-folder/char4.jpg'
+    name: 'Margaret Thatcher',
+    quote: 'Strength means leading firmly when compromise weakens progress',
+    img: './image/entj-folder/char4.jpg'
   }
 ];
 const career = [
     {
-      name: "Software Engineer",
-      desc: "INTJ memiliki pola pikir yang terstruktur, analitis, dan berorientasi pada sistem, menjadikan mereka sangat cocok di dunia rekayasa perangkat lunak.",
-      img: "./image/intj-folder/career1.jpg",
+      name: "Manajer",
+      desc: "ENTJ unggul mengordinasikan tim melalui arahan tegas yang mendorong pencapaian target secara konsisten terukur efektif",
+      img: "./image/entj-folder/career1.jpg",
     },
     {
-      name: "Business Management",
-      desc: "Dengan kemampuan berpikir strategis dan pandangan jangka panjang, INTJ unggul dalam mengelola sistem yang kompleks seperti organisasi atau bisnis.",
-      img: "./image/intj-folder/career2.jpg",
+      name: "CEO",
+      desc: "Visi besar ENTJ memandu pertumbuhan perusahaan melalui keputusan strategis yang mempertimbangkan risiko serta peluang jangka panjang",
+      img: "./image/entj-folder/career2.jpg",
     },
     {
-      name: "Scientist",
-      desc: "Sebagai tipe yang haus akan pemahaman mendalam, INTJ memiliki dorongan alami untuk meneliti, bereksperimen, dan menemukan pola yang tersembunyi di balik fenomena alam.",
-      img: "./image/intj-folder/career3.jpg",
+      name: "Konsultan Bisnis",
+      desc: "Analisis tajam ENTJ mengarahkan klien menemukan solusi efisien melalui perbaikan sistem yang terencana matang berkelanjutan",
+      img: "./image/entj-folder/career3.jpg",
     },
   ];
 const subjects = [
     {
-      name: "Software Engineer",
-      desc: "INTJ cocok di bidang Informatika karena mereka analitis, strategis, dan menyukai sistem yang efisien.",
-      img: "./image/intj-folder/mapel1.jpg",
+      name: "Ekonomi",
+      desc: "Pola pikir strategis ENTJ memudahkan analisis dinamika pasar untuk merancang keputusan berbasis efisiensi tinggi",
+      img: "./image/entj-folder/mapel1.jpg",
     },
     {
-      name: "Fisika",
-      desc: "INTJ sering tertarik dengan Fisika karena sifatnya yang konseptual dan berbasis teori.",
-      img: "./image/intj-folder/mapel2.jpg",
+      name: "Manajemen",
+      desc: "Naluri kepemimpinan ENTJ membantu mengarahkan sumber daya mencapai tujuan besar melalui perencanaan sistematis terstruktur matang.",
+      img: "./image/entj-folder/mapel2.jpg",
     },
     {
       name: "Matematika",
-      desc: "Matematika cocok bagi INTJ karena menuntut pemikiran logis dan pola berpikir terstruktur.",
-      img: "./image/intj-folder/mapel3.jpg",
+      desc: "Struktur berpikir ENTJ mendukung pengolahan data numerik guna merumuskan strategi keputusan rasional efektif optimal.",
+      img: "./image/entj-folder/mapel3.jpg",
     },
   ];
 let open = false;
@@ -134,7 +134,7 @@ let open = false;
 
 <div class="px-4 pt-1 md:p-5 space-y-8">
 
-<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-blue-500 duration-300 bg-white">
+<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-purple-700 duration-300 bg-white">
   
   <!-- Logo -->
   <div>
@@ -143,16 +143,16 @@ let open = false;
 
   <!-- Desktop Menu -->
   <div class="hidden md:flex justify-center gap-6 items-center">
-    <a href="/test" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
-    <a href="/types" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
-    <a href="/theory" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
-    <a href="#label" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
+    <a href="/test" class="font-semibold text-accent hover:text-purple-800 duration-300">Personality Test</a>
+    <a href="/types" class="font-semibold text-accent hover:text-purple-800 duration-300">Personality Type</a>
+    <a href="/theory" class="font-semibold text-accent hover:text-purple-800 duration-300">Science Behind</a>
+    <a href="#label" class="font-semibold text-accent hover:text-purple-800 duration-300">The Journey</a>
   </div>
 
   <!-- Desktop Action Buttons -->
   <div class="hidden md:flex items-center gap-3">
     <a href="/test">
-      <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+      <button class="btn border-black text-black items-center hover:btn-primary hover:text-purple-300 hover:shadow-purple-700 hover:shadow-md">
         Try Test
       </button>
     </a>
@@ -171,20 +171,20 @@ let open = false;
 
 <!-- Mobile Dropdown -->
 {#if open}
-  <div class="md:hidden mt-2 rounded-xl shadow-md outline hover:shadow-blue-700 outline-black bg-white px-6 py-4 space-y-4">
+  <div class="md:hidden mt-2 rounded-xl shadow-md outline hover:shadow-purple-700 outline-black bg-white px-6 py-4 space-y-4">
     
     <!-- Menu Items -->
     <div class="flex flex-col gap-4">
-      <a href="/test" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Test</a>
-      <a href="/types" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Type</a>
-      <a href="/theory" class="font-semibold text-accent hover:text-blue-600 duration-200">Science Behind</a>
-      <a href="#label" class="font-semibold text-accent hover:text-blue-600 duration-200">The Journey</a>
+      <a href="/test" class="font-semibold text-accent hover:text-purple-600 duration-200">Personality Test</a>
+      <a href="/types" class="font-semibold text-accent hover:text-purple-600 duration-200">Personality Type</a>
+      <a href="/theory" class="font-semibold text-accent hover:text-purple-600 duration-200">Science Behind</a>
+      <a href="#label" class="font-semibold text-accent hover:text-purple-600 duration-200">The Journey</a>
     </div>
 
     <!-- Actions -->
     <div class="flex flex-col gap-3 pt-4">
       <a href="/test">
-        <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+        <button class="btn border-black text-black items-center hover:btn-primary hover:text-purple-300 hover:shadow-purple-600 hover:shadow-md">
           Try Test
         </button>
       </a>
@@ -196,8 +196,7 @@ let open = false;
  <!-- Hero -->
 <section
   class="relative h-auto md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-lg hover:shadow-xl duration-300 shadow-black"
-  style={hero.herowp}
->
+  style={hero.herowp}>
   <!-- Background -->
   <div class="h-full w-full bg-cover bg-center bg-transparent backdrop-blur-sm">
     <!-- Overlay -->
@@ -214,7 +213,7 @@ let open = false;
       </div>
 
       <!-- Kiri Mobile / Kanan Desktop: Text -->
-      <div class="text-white w-full md:w-[55%] space-y-4 text-center md:text-left">
+      <div class="text-purple-600 w-full md:w-[55%] space-y-4 text-center md:text-left">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">
           {hero.mbti}
         </h1>
@@ -242,12 +241,12 @@ let open = false;
 <!-- Nav Content -->
 <section class="w-full sans px-2 md:px-4 mb-16 md:mb-24 mt-8 md:mt-12">
   <div class="flex flex-wrap justify-between gap-2 md:gap-4">
-    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
-    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.alias}</a>
-    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
-    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
-    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
-    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
+    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
+    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.alias}</a>
+    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
+    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
+    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
+    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-purple-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
   </div>
 </section>
 
@@ -256,7 +255,7 @@ let open = false;
 <section>
   {#each description as de}
     <div id={de.id} class="mb-12 md:mb-20">
-      <h1 class="text-3xl md:text-5xl lg:text-6xl helvetica font-black text-black/90 px-4 md:px-8 pb-4 mb-4 border-b-3 border-blue-600" style={de.position}>{de.header}</h1>
+      <h1 class="text-3xl md:text-5xl lg:text-6xl helvetica font-black text-black/90 px-4 md:px-8 pb-4 mb-4 border-b-3 border-purple-600" style={de.position}>{de.header}</h1>
       <p class="text-base md:text-lg lg:text-xl helvetica text-black/70 px-4 md:px-0">{de.desc}</p>
     </div>
   {/each}
@@ -267,8 +266,8 @@ let open = false;
 <section class="px-4 md:px-8 py-8 md:py-12 flex flex-col items-center">
   <!-- Header -->
   <div class="relative inline-block mb-8 md:mb-10 group">
-    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none pb-2 text-blue-500 relative">Songs<span
-        class="absolute bottom-0 left-0 w-0 h-[4px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none pb-2 text-purple-500 relative">Songs<span
+        class="absolute bottom-0 left-0 w-0 h-[4px] bg-purple-500 transition-all duration-500 group-hover:w-full"></span>
     </h2>
   </div>
 
@@ -278,7 +277,7 @@ let open = false;
   >
     {#each songs as song}
       <div
-        class="flex flex-col items-center text-center group p-5 rounded-xl transition duration-300 hover:bg-blue-500/10 hover:shadow-xl w-full md:w-auto"
+        class="flex flex-col items-center text-center group p-5 rounded-xl transition duration-300 hover:bg-purple-500/10 hover:shadow-xl w-full md:w-auto"
       >
         <img
           src={song.img}
@@ -287,11 +286,11 @@ let open = false;
         />
         <div class="mt-4">
           <h3
-            class="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-blue-500 transition-colors duration-300"
+            class="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-purple-500 transition-colors duration-300"
           >
             {song.title}
           </h3>
-          <p class="text-sm md:text-base text-gray-500 group-hover:text-blue-400 transition-colors">
+          <p class="text-sm md:text-base text-gray-500 group-hover:text-purple-400 transition-colors">
             {song.artist}
           </p>
         </div>
@@ -301,18 +300,24 @@ let open = false;
 </section>
 
 <!-- CHARACTERS SECTION -->
+<div class="flex mb-8 md:mb-1 justify-center w-full group">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight leading-none pb-2 text-purple-500 relative">Characters<span
+        class="absolute bottom-0 left-0 w-0 h-[4px] bg-purple-500 transition-all duration-500 group-hover:w-full"></span>
+    </h2>
+  </div>
 <section class="flex flex-wrap justify-center gap-6 md:gap-10 py-12 md:py-16 px-4 md:px-0">
+  
   {#each characters as char}
     <div class="group [perspective:1000px] cursor-pointer">
       <div class="relative w-56 md:w-64 lg:w-72 h-80 md:h-96 lg:h-[420px] [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
       <!-- FRONT -->
-        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-blue-700/10 border border-purple-200 backface-hidden">
+        <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-green-700/10 border border-purple-200 backface-hidden">
           <img src={char.img} alt={char.name} class="w-full h-full object-cover" />
         </div>
 
 
       <!-- BACK -->
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-800 text-white rounded-3xl flex flex-col justify-center items-center px-6 text-center [transform:rotateY(180deg)] backface-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-purple-800 text-white rounded-3xl flex flex-col justify-center items-center px-6 text-center [transform:rotateY(180deg)] backface-hidden">
           <p class="italic text-base md:text-lg mb-4">"{char.quote}"</p>
           <h3 class="text-xl md:text-2xl font-bold">— {char.name}</h3>
         </div>
@@ -327,11 +332,11 @@ let open = false;
   <div class="text-center mb-12">
     <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
       <span class="text-black">Mata</span>
-      <span class="bg-gradient-to-r from-blue-300 to-blue-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
+      <span class="bg-gradient-to-r from-purple-300 to-purple-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
         Pelajaran
       </span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -350,7 +355,7 @@ let open = false;
 
         <!-- Teks -->
         <div class="mt-4 px-1">
-          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-blue-400 transition-colors duration-300">
+          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-purple-400 transition-colors duration-300">
             {s.name}
           </h2>
           <p class="text-xs md:text-sm text-gray-600 mt-2 leading-relaxed">
@@ -366,12 +371,12 @@ let open = false;
   <!-- Judul -->
   <div class="text-center mb-12 md:mb-20">
     <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
-      <span class="bg-gradient-to-r from-blue-300 to-blue-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
+      <span class="bg-gradient-to-r from-purple-300 to-purple-500 text-white px-3 py-1 ml-2 shadow-md inline-block">
         Jalur
       </span>
       <span class="text-black">Karir</span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -390,7 +395,7 @@ let open = false;
 
         <!-- Teks -->
         <div class="mt-4 px-1">
-          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-blue-400 transition-colors duration-300">
+          <h2 class="text-xs md:text-sm font-semibold tracking-wider text-gray-800 group-hover:text-purple-400 transition-colors duration-300">
             {c.name}
           </h2>
           <p class="text-xs md:text-sm text-gray-600 mt-2 leading-relaxed">
@@ -438,78 +443,3 @@ let open = false;
   }
 
 </style>
-
-
-<!-- <section class="backdrop-blur-md rounded-xl overflow-hidden bg-black shadow-lg mb-10 shadow-black" style="background-image: url(./image/intj-folder/hero-wallpaper.jpg);">
-
-  <div class="flex gap-6 justify-evenly p-6">
-
-    <div class=" w-56 backdrop-blur-lg hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #580a4bff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-coolio.jpg" alt="Everything I Wanted" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Gangsta Paradise</h3>
-        <p class="text-sm text-gray-300">Coolio</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #000000ff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-neighborhood.jpg" alt="From the Start" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Private</h3>
-        <p class="text-sm text-gray-300">The Neighborhood</p>
-      </div>
-    </div>
-    <div class=" w-44 flex justify-center items-center">
-      <p class=" text-5xl">🎧</p>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #ff824cff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-taylor.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Midnight</h3>
-        <p class="text-sm text-gray-300">Taylor Swift</p>
-      </div>
-    </div>
-
-    <div class=" w-56 hover:shadow-black hover:shadow-lg h-auto rounded-xl shadow-md transition-all duration-200 text-white" style="background-color: #0021ddff">
-      <div class="p-4 flex flex-col items-center text-center">
-        <img src="./image/intj-folder/music-tvgirl.jpg" alt="Apocalypse" class="w-32 h-32 object-cover rounded-lg mb-4 shadow-md" />
-        <h3 class="font-semibold text-lg">Cigarettes Out The window</h3>
-        <p class="text-sm text-gray-300">TV Girl</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- <section>
-  <div id="intj" class=" mb-20">
-    <h1 class=" text-6xl text-left helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.mbti}</h1>
-  <p class=" text-xl helvetica text-black/70">Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.
-  </p>
-  </div>
-  <div id="theanalyst" class=" mb-20">
-    <h1 class=" text-6xl text-center helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.alias}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="introvert" class=" mb-20">
-    <h1 class=" text-6xl text-right helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon1}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="intuitive" class=" mb-20">
-    <h1 class=" text-6xl text-left helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon2}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div id="thinking" class=" mb-20">
-    <h1 class=" text-6xl text-center helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon3}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  <div>
-    <h1 id="judging" class=" text-6xl text-right helvetica font-black text-black/90 px-8 pb-4 mb-4 border-b-3 border-blue-600">{hero.icon4}</h1>
-  <p class=" text-xl helvetica text-black/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error aperiam laborum rem consequatur porro dignissimos omnis ad nisi ullam hic unde maxime obcaecati nulla adipisci dolorum, doloribus in, neque perspiciatis, cum quaerat? Vitae ipsum obcaecati minima ratione magnam suscipit accusantium, porro saepe quas consequatur possimus quasi, earum necessitatibus at voluptatibus? Eius, eveniet voluptatem. Dolorem quae iusto impedit alias laboriosam magnam veniam voluptatem eligendi rerum odit in rem eius corporis aspernatur accusantium nam sunt adipisci modi, eveniet, maiores deleniti enim! Minus ab voluptate necessitatibus accusantium quod illum tenetur, deleniti dolores dolorem perspiciatis voluptas veritatis aliquam neque quibusdam fuga, dicta voluptatibus, magni dolor debitis voluptatem tempore fugit. Nesciunt enim repudiandae et officia reiciendis autem nobis.
-  </p>
-  </div>
-  
-</section> -->

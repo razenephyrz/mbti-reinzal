@@ -4,8 +4,8 @@
     logo : './image/logo-mbti-web.png',
     herowp : "background-image: url('./image/istj-folder/wallpaper.png');",
     mbti : "ISTJ",
-    alias : "The Perfectionist",
-    desc : "INTJ adalah arsitek pemikiran yang visioner dan strategis. Mereka mencari pola, efisiensi, serta cara paling logis untuk mewujudkan visi jangka panjang.",
+    alias : "The Logistician",
+    desc : "ISTJ adalah penjaga ketertiban yang tenang dan terstruktur. Mereka mencari kejelasan aturan, kepastian langkah, serta cara paling solid untuk memastikan segala sesuatu berjalan rapi, stabil, dan sesuai tanggung jawab",
     icon1 : "Introvert",
     icon2 : "Sensing",
     icon3 : "Thinking",
@@ -16,37 +16,37 @@
     {
       id : "intj",
       header : "ISTJ",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "ISTJ, kamu adalah pribadi yang stabil, teratur, dan sangat dapat diandalkan. Kamu cenderung bekerja dengan tenang, fokus, dan penuh tanggung jawab. Kamu bukan tipe yang banyak bicara, tetapi tindakanmu selalu konsisten dan bisa dipercaya. Kamu melihat dunia sebagai sesuatu yang membutuhkan struktur yang jelas, aturan yang logis, dan langkah yang terencana. Kamu menghargai ketertiban, keakuratan, serta proses yang sudah terbukti efektif. Kamu bukan hanya memikirkan apa yang perlu dilakukan—kamu melakukannya dengan disiplin dan detail yang rapi.",
       position : "text-align: left;",
     },
     {
       id : "theanalyst",
       header : "The Logistician",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "ISTJ mendapat julukan ini karena kamu sangat ahli dalam menjaga sistem tetap berjalan, memastikan aturan ditaati, dan menyelesaikan tugas dengan standar tinggi. Kamu dikenal sebagai seseorang yang tak mudah goyah, yang bisa diandalkan untuk menjaga stabilitas di tengah kekacauan. Kamu memahami nilai dari rutinitas, kejelasan prosedur, dan konsistensi. Kamu seperti pondasi kokoh yang menopang struktur besar—tidak mencolok, tetapi sangat vital.",
       position : "text-align: center;",
     },
     {
       id : "introvert",
       header : "Introvert",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu introvert karena kamu lebih nyaman memproses informasi secara internal, bekerja dalam suasana tenang, dan mengisi ulang energi melalui waktu pribadi. Interaksi sosial bukan masalah untukmu, tetapi terlalu banyak stimulasi eksternal bisa membuatmu lelah. Kamu lebih suka percakapan yang bermakna daripada keramaian, dan kamu merasa paling produktif ketika bisa fokus tanpa gangguan",
       position : "text-align: right;",
     },
     {
       id : "intuitive",
       header : "Sensing",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu sensing karena kamu berorientasi pada fakta nyata, detail konkret, dan informasi yang bisa dibuktikan secara langsung. Kamu mengandalkan pengalaman, data spesifik, dan metode yang sudah jelas langkah-langkahnya. Kamu tidak suka berandai-andai tanpa dasar kuat; kamu lebih percaya pada apa yang sudah terbukti berfungsi. Bagi kamu, realita saat ini dan apa yang bisa dilakukan sekarang jauh lebih penting daripada spekulasi masa depan.",
       positions : "text-align: left;",
     },
     {
       id : "thinking",
       header : "Thinking",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu thinking karena kamu mengambil keputusan berdasarkan logika, konsistensi aturan, dan pertimbangan objektif. Kamu ingin segala sesuatu berjalan sesuai prosedur, standar, dan rasionalitas. Kamu menghargai kejujuran, ketegasan, dan struktur yang rapi. Kamu cenderung memisahkan keputusan dari emosi agar hasilnya lebih adil dan efisien. Bukan berarti kamu tidak peduli, tetapi kamu percaya keputusan terbaik adalah yang paling masuk akal.",
       position : "text-align: center;",
     },
     {
       id : "judging",
       header : "Judging",
-      desc : "Kadang, jadi introvert itu kayak hidup di dua dunia — satu yang penuh suara di luar sana, dan satu lagi yang sunyi tapi hangat di dalam kepala sendiri. Banyak orang kira kamu pendiam, padahal kamu cuma milih diam karena tahu nggak semua hal perlu dijawab. Kamu lebih suka memperhatikan, nyimak, dan mikir dulu sebelum ngomong, karena di pikiranmu udah kayak labirin ide dan perasaan yang nggak bisa dijelaskan dalam satu kalimat. Bukan berarti kamu antisosial, kamu cuma butuh ruang buat recharge, bukan sorotan. Ada kalanya kamu ikut nongkrong, tapi setelah itu pengin langsung pulang dan rebahan sambil denger musik, karena di sanalah kamu bisa jadi dirimu sendiri tanpa harus pura-pura nyambung sama obrolan yang nggak kamu nikmati. Orang sering salah paham, ngira kamu nggak peduli, padahal kamu justru yang paling peka — kamu ngerasain suasana, nyadar kalau ada yang lagi nggak enak hati, tapi kamu milih diem karena kamu tahu kadang diam bisa lebih menenangkan daripada seribu kata. Kamu bukan kurang percaya diri, kamu cuma sadar kalau energi kamu berharga, dan kamu nggak mau ngabisinnya buat hal yang nggak punya makna. Jadi, kalau kamu pernah ngerasa “kok aku beda ya?”, ingat aja — bukan kamu yang terlalu tenang, tapi dunia aja yang terlalu berisik. Kamu bukan kurang ramai, kamu cuma nyaman dalam hening. Dan itu keren, karena nggak semua orang bisa tenang dalam dirinya sendiri sekuat itu.",
+      desc : "Kamu judging karena kamu lebih nyaman dengan rencana jelas, jadwal teratur, dan lingkungan yang bisa diprediksi. Kamu suka menyelesaikan tugas tepat waktu, menyusun prioritas, dan memastikan semuanya berada pada tempatnya. Kamu tidak nyaman dengan perubahan mendadak atau keputusan yang tidak pasti. Kamu percaya bahwa ketertiban adalah kunci stabilitas—dan stabilitas menciptakan hasil yang konsisten",
       position : "text-align: right;",
     },
     
@@ -55,76 +55,76 @@
   const songs = [
   { 
     img: './image/istj-folder/music1.jpg', 
-    title: "Gangsta’s Paradise", 
-    artist: "Coolio" 
+    title: "NDA", 
+    artist: "Billie Eilish" 
   },
   { img: './image/istj-folder/music2.jpg',
-    title: "Paradise", 
-    artist: "The Neighborhood" 
+    title: "A Glimpse Of Us", 
+    artist: "Joji" 
   },
   { img: './image/istj-folder/music3.jpg',
-    title: "Midnights", 
-    artist: "Taylor Swift" 
+    title: "Stranger", 
+    artist: "Olivia Rodrigo" 
   },
   { img: './image/istj-folder/music4.jpg', 
-    title: "Cigarettes Out the Window", 
-    artist: "TV Girl" 
+    title: "Hotline Bling", 
+    artist: "Drake" 
   }
   ]
   const characters = [
   {
-    name: 'Cillian Murphy',
-    quote: 'I am interested in characters who are flawed, because that is what makes them human.',
+    name: 'Captain America',
+    quote: 'I do what must be done, no matter how difficult the duty',
     img: './image/istj-folder/char1.jpg'
   },
   {
-    name: 'Loid Forger',
-    quote: 'I’m not doing this because I want to. It’s just part of the mission.',
+    name: 'Mikasa Ackerman',
+    quote: 'I do what must be done, no matter how difficult the duty',
     img: './image/istj-folder/char2.jpg'
   },
   {
-    name: 'Uchiha Sasuke',
-    quote: 'I have long since closed my eyes... My only goal is in the darkness.',
+    name: 'George Washington',
+    quote: 'I do what must be done, no matter how difficult the duty',
     img: './image/istj-folder/char3.jpg'
   },
   {
-    name: 'Suga (BTS)',
-    quote: 'I’m the one I should love in this world.',
+    name: 'Angela Merkel',
+    quote: 'I do what must be done, no matter how difficult the duty.',
     img: './image/istj-folder/char4.jpg'
   }
 ];
 const career = [
     {
-      name: "Software Engineer",
-      desc: "INTJ memiliki pola pikir yang terstruktur, analitis, dan berorientasi pada sistem, menjadikan mereka sangat cocok di dunia rekayasa perangkat lunak.",
-      img: "./image/intj-folder/career1.jpg",
+      name: "Akuntan",
+      desc : "Ketepatan ISTJ mendukung pencatatan keuangan akurat melalui kontrol data terstruktur yang menjaga kestabilan administrasi",
+      img: "./image/istj-folder/career1.jpg",
     },
     {
-      name: "Business Management",
-      desc: "Dengan kemampuan berpikir strategis dan pandangan jangka panjang, INTJ unggul dalam mengelola sistem yang kompleks seperti organisasi atau bisnis.",
-      img: "./image/intj-folder/career2.jpg",
+      name: "Pegawai Pemerintahan",
+      desc : "Loyalitas ISTJ selaras dengan pekerjaan birokrasi yang menuntut disiplin tinggi melalui aturan jelas terstandar",
+      img: "./image/istj-folder/career2.jpg",
     },
     {
-      name: "Scientist",
-      desc: "Sebagai tipe yang haus akan pemahaman mendalam, INTJ memiliki dorongan alami untuk meneliti, bereksperimen, dan menemukan pola yang tersembunyi di balik fenomena alam.",
-      img: "./image/intj-folder/career3.jpg",
+      name: "Teknisi",
+      desc : "Loyalitas ISTJ selaras dengan pekerjaan birokrasi yang menuntut disiplin tinggi melalui aturan jelas terstandar",
+      img: "./image/istj-folder/career3.jpg",
     },
   ];
 const subjects = [
     {
-      name: "Software Engineer",
-      desc: "INTJ cocok di bidang Informatika karena mereka analitis, strategis, dan menyukai sistem yang efisien.",
-      img: "./image/intj-folder/mapel1.jpg",
-    },
-    {
-      name: "Fisika",
-      desc: "INTJ sering tertarik dengan Fisika karena sifatnya yang konseptual dan berbasis teori.",
-      img: "./image/intj-folder/mapel2.jpg",
-    },
-    {
       name: "Matematika",
-      desc: "Matematika cocok bagi INTJ karena menuntut pemikiran logis dan pola berpikir terstruktur.",
-      img: "./image/intj-folder/mapel3.jpg",
+      desc : "Pendekatan sistematis ISTJ membantu memahami perhitungan terstruktur melalui analisis angka yang konsisten akurat sekali",
+      img: "./image/istj-folder/mapel1.jpg",
+    },
+    {
+      name : "Ekonomi",
+      desc : "Pendekatan sistematis ISTJ membantu memahami perhitungan terstruktur melalui analisis angka yang konsisten akurat sekali",
+      img: "./image/istj-folder/mapel2.jpg",
+    },
+    {
+      name: "Informatika",
+      desc: "Ketelitian ISTJ membuat mereka unggul mengelola informasi digital melalui prosedur teknis yang teratur sangat rapi.",
+      img: "./image/istj-folder/mapel3.jpg",
     },
   ];
 let open = false;
@@ -331,7 +331,7 @@ let open = false;
         Pelajaran
       </span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Mata Pelajaran yang sangat cocok dengan {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
@@ -371,7 +371,7 @@ let open = false;
       </span>
       <span class="text-black">Karir</span>
     </h1>
-    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian INTJ</p>
+    <p class="text-sm md:text-base text-gray-500 mt-2">Jalur Karir yang sesuai dengan kepribadian {hero.mbti}</p>
   </div>
 
   <!-- Kartu -->
