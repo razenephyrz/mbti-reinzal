@@ -147,8 +147,8 @@ const subjects = [
   <div class="hidden md:flex justify-center gap-6 items-center">
     <a href="/test" class="font-semibold text-accent hover:text-purple-800 duration-300">Personality Test</a>
     <a href="/types" class="font-semibold text-accent hover:text-purple-800 duration-300">Personality Type</a>
-    <a href="/theory" class="font-semibold text-accent hover:text-purple-800 duration-300">Science Behind</a>
-    <a href="#label" class="font-semibold text-accent hover:text-purple-800 duration-300">The Journey</a>
+    <a href="/theory" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
+    <a href="/journey" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
   </div>
 
   <!-- Desktop Action Buttons -->
@@ -177,10 +177,10 @@ const subjects = [
     
     <!-- Menu Items -->
     <div class="flex flex-col gap-4">
-      <a href="/test" class="font-semibold text-accent hover:text-purple-600 duration-200">Personality Test</a>
-      <a href="/types" class="font-semibold text-accent hover:text-purple-600 duration-200">Personality Type</a>
-      <a href="/theory" class="font-semibold text-accent hover:text-purple-600 duration-200">Science Behind</a>
-      <a href="#label" class="font-semibold text-accent hover:text-purple-600 duration-200">The Journey</a>
+      <a href="/test" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Test</a>
+      <a href="/types" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Type</a>
+      <a href="/theory" class="font-semibold text-accent hover:text-blue-600 duration-200">Science Behind</a>
+      <a href="/journey" class="font-semibold text-accent hover:text-blue-600 duration-200">The Journey</a>
     </div>
 
     <!-- Actions -->
