@@ -145,44 +145,81 @@
 			if (el) observerD.observe(el);
 		});
 	});
+	 const hero = 
+  { 
+    logo : './image/logo-mbti-web.png',
+    herowp : "background-image: url('./image/estp-folder/wallpaper.png');",
+    mbti : "ISTP",
+    alias : "The Virtuoso",
+    desc : "ISTP adalah perakit solusi yang tenang dan penuh ketangkasan. Mereka mencari tantangan nyata, mekanisme tersembunyi, serta cara paling langsung untuk memahami dunia melalui aksi cepat dan eksperimen yang presisi.",
+    icon1 : "Introvert",
+    icon2 : "Sensing",
+    icon3 : "Thinking",
+    icon4 : "Perceiving",
+    mbticon : "./image/mbti-illustration/ISTP.png"
+  }
+	let open = false;
 </script>
 
-<div
-	class="navbar mt-6 mb-24 flex w-7xl justify-between rounded-lg px-10 py-2 shadow-md outline outline-black duration-300 will-change-transform hover:shadow-pink-800"
->
-	<div>
-		<img src="./image/logo-mbti-web.png" class="h-12 w-auto" alt="" />
-	</div>
-	<div class="flex items-center justify-center gap-5">
-		<a
-			href="./test"
-			aria-label="anjay"
-			class="text-accent font-semibold duration-300 hover:text-pink-800">Personality Test</a
-		>
-		<a
-			href="./types"
-			aria-label="anjay"
-			class="text-accent font-semibold duration-300 hover:text-pink-800">Personality Type</a
-		>
-		<a
-			href="./theory"
-			aria-label="anjay"
-			class="text-accent font-semibold duration-300 hover:text-pink-800">Science Behind</a
-		>
-		<a
-			href="#label"
-			aria-label="anjay"
-			class="text-accent font-semibold duration-300 hover:text-pink-800">The Journey</a
-		>
-	</div>
-	<div class="flex items-center gap-3">
-		<a href="#kanjau" class="text-md text-primary font-semibold">Login</a>
-		<button
-			class=" btn hover:btn-primary hover:text-primary-content mt-1 items-center border-black text-black"
-			>Try Test</button
-		>
-	</div>
-</div>
+<div class="px-4 w-full pt-1 md:p-5 space-y-8">
+	<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-yellow-700 duration-300 bg-white">
+	  <!-- Logo -->
+	  <div>
+		<img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+	  </div>
+	
+	  <!-- Desktop Menu -->
+	  <div class="hidden md:flex justify-center gap-6 items-center">
+		<a href="/test" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Test</a>
+		<a href="/types" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Type</a>
+		<a href="/theory" class="font-semibold text-accent hover:text-yellow-800 duration-300">Science Behind</a>
+		<a href="#label" class="font-semibold text-accent hover:text-yellow-800 duration-300">The Journey</a>
+	  </div>
+	
+	  <!-- Desktop Action Buttons -->
+	  <div class="hidden md:flex items-center gap-3">
+		<a href="/test">
+		  <button class="btn border-black text-black items-center hover:btn-primary hover:text-yellow-300 hover:shadow-yellow-700 hover:shadow-md">
+			Try Test
+		  </button>
+		</a>
+	  </div>
+	
+	  <!-- Mobile Hamburger -->
+	  <button aria-label="button"
+		class="md:hidden flex items-center p-2 rounded-lg hover:bg-gray-100 duration-200"
+		on:click={() => (open = !open)}
+	  >
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+		</svg>
+	  </button>
+	</nav>
+	
+	<!-- Mobile Dropdown -->
+	{#if open}
+	  <div class="md:hidden mt-2 w-full rounded-xl shadow-md outline hover:shadow-yellow-700 outline-black bg-white px-6 py-4 space-y-4">
+		
+		<!-- Menu Items -->
+		<div class="flex flex-col gap-4">
+		  <a href="/test" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Test</a>
+		  <a href="/types" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Type</a>
+		  <a href="/theory" class="font-semibold text-accent hover:text-yellow-600 duration-200">Science Behind</a>
+		  <a href="#label" class="font-semibold text-accent hover:text-yellow-600 duration-200">The Journey</a>
+		</div>
+	
+		<!-- Actions -->
+		<div class="flex flex-col gap-3 pt-4">
+		  <a href="/test">
+			<button class="btn border-black text-black items-center hover:btn-primary hover:text-yellow-300 hover:shadow-yellow-600 hover:shadow-md">
+			  Try Test
+			</button>
+		  </a>
+		</div>
+	  </div>
+	{/if}
+	
+	
 <h1 class="text-center text-5xl font-black tracking-widest text-pink-800">THE ANALYST</h1>
 <section class="my-12 flex w-full flex-wrap justify-evenly gap-4">
 	<!-- Kartu 1 -->
@@ -437,6 +474,7 @@
 			<svg class="h-auto w-full" viewBox="0 0 20 20" fill="currentColor">
 				<text x="0" y="15" font-size="18" font-family="serif" font-weight="bold">K</text>
 			</svg>
+
 			<svg class="mt-1 h-auto w-full" viewBox="0 0 24 24" fill="currentColor">
 				<path d="M12 2L4 12l8 10 8-10L12 2z" />
 			</svg>
@@ -582,3 +620,4 @@
 		</div>
 	</div>
 </section>
+</div>

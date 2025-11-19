@@ -138,7 +138,9 @@ let open = false;
   
   <!-- Logo -->
   <div>
-    <img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+    <a href="/">
+		  <img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+	  </a>
   </div>
 
   <!-- Desktop Menu -->
@@ -241,12 +243,12 @@ let open = false;
 <!-- Nav Content -->
 <section class="w-full sans px-2 md:px-4 mb-16 md:mb-24 mt-8 md:mt-12">
   <div class="flex flex-wrap justify-between gap-2 md:gap-4">
-    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
-    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.alias}</a>
-    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
-    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
-    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
-    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
+    <a href="#intj" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.mbti}</a>
+    <a href="#theanalyst" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.alias}</a>
+    <a href="#introvert" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon1}</a>
+    <a href="#intuitive" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon2}</a>
+    <a href="#thinking" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon3}</a>
+    <a href="#judging" class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full text-blue-500 text-sm md:text-lg font-bold">{hero.icon4}</a>
   </div>
 </section>
 
@@ -267,7 +269,7 @@ let open = false;
   <!-- Header -->
   <div class="relative inline-block mb-8 md:mb-10 group">
     <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none pb-2 text-blue-500 relative">Songs<span
-        class="absolute bottom-0 left-0 w-0 h-[4px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
+        class="absolute bottom-0 left-0 w-0 h-1 bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
     </h2>
   </div>
 
@@ -302,14 +304,14 @@ let open = false;
 <!-- CHARACTERS SECTION -->
 <div class="flex mb-8 md:mb-1 justify-center w-full group">
     <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight leading-none pb-2 text-blue-500 relative">Characters<span
-        class="absolute bottom-0 left-0 w-0 h-[4px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
+        class="absolute bottom-0 left-0 w-0 h-4px bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
     </h2>
   </div>
 <section class="flex flex-wrap justify-center gap-6 md:gap-10 py-12 md:py-16 px-4 md:px-0">
   
   {#each characters as char}
-    <div class="group [perspective:1000px] cursor-pointer">
-      <div class="relative w-56 md:w-64 lg:w-72 h-80 md:h-96 lg:h-[420px] [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
+    <div class="group perspective-[1000px] cursor-pointer">
+      <div class="relative w-56 md:w-64 lg:w-72 h-80 md:h-96 lg:h-[420px] transform-3d transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
       <!-- FRONT -->
         <div class="absolute inset-0 rounded-3xl overflow-hidden shadow-xl bg-green-700/10 border border-blue-200 backface-hidden">
           <img src={char.img} alt={char.name} class="w-full h-full object-cover" />
@@ -411,7 +413,7 @@ let open = false;
 <!-- Footer -->
 <footer class="text-center mt-8 md:mt-12 text-xs md:text-sm text-gray-500 px-4">
     <hr class="my-4" />
-    <p>"Di balik tatapan dingin INTJ, ada ketenangan yang dibangun dari pemikiran mendalam dan keyakinan pada arah yang mereka pilih."</p>
+    <p>"Kepedulian saya ditunjukkan melalui tindakan kecil yang konsisten. Di balik ketenangan, ada dedikasi penuh untuk kesejahteraan orang lain."</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
 </footer>
 

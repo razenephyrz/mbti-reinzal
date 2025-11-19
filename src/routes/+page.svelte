@@ -2,60 +2,47 @@
 	import { onMount, onDestroy } from 'svelte';
   const hero = 
   { 
-    logo : './image/logo-mbti-web.png',
-    
+  logo : './image/logo-mbti-web.png',
   }
-	// ==== ARRAY GAMBAR (tinggal isi) ====
+  // ==== ARRAY GAMBAR (tinggal isi) ====
   export let images = [
-    "/image/dashboard1.jpg",
-    "/image/dashboard2.jpg",
-    "/image/dashboard3.jpg",
-    "/image/dashboard4.jpg",
+  "/image/dashboard1.jpg",
+  "/image/dashboard2.jpg",
+  "/image/dashboard3.jpg",
+  "/image/dashboard4.jpg",
   ];
 
   let current = 0;
   let fading = false;
 
   onMount(() => {
-    const interval = setInterval(() => {
-      fading = true;
-      setTimeout(() => {
-        current = (current + 1) % images.length;
-        fading = false;
-      }, 400);
-    }, 3000);
+  const interval = setInterval(() => {
+    fading = true;
+    setTimeout(() => {
+    current = (current + 1) % images.length;
+    fading = false;
+    }, 400);
+  }, 3000);
 
-    return () => clearInterval(interval);
+  return () => clearInterval(interval);
   });
 
   const types = [
-    { text: "MBTI", color: "bg-gray-300 text-black" },
-    { text: "INTJ", color: "bg-purple-600 text-white" },
-    { text: "ENFP", color: "bg-orange-400 text-white" },
-    { text: "ISTP", color: "bg-blue-500 text-white" },
-    { text: "ENTJ", color: "bg-red-600 text-white" }
+  { text: "INTJ", color: "bg-purple-600 text-white" },
+  { text: "ENFP", color: "bg-green-400 text-white" },
+  { text: "ISTJ", color: "bg-blue-500 text-white" },
+  { text: "ISTP", color: "bg-yellow-600 text-white" }
   ];
 
-  let currents = 0;
-  let startCycle = false;
-
-  onMount(() => {
-    setTimeout(() => {
-      startCycle = true;
-      setInterval(() => {
-        currents = (currents + 1) % types.length;
-      }, 2000);
-    }, 1500);
-  });
   let open = false;
 
   let track: HTMLDivElement;
 
   const cards = [
-    { src: "./image/mbti-illustration/ENTJ.png", label: "ENTJ" },
-    { src: "./image/mbti-illustration/INTJ.png", label: "INTJ" },
-    { src: "./image/mbti-illustration/INTP.png", label: "INTP" },
-    { src: "./image/mbti-illustration/ENTP.png", label: "ENTP" }
+  { src: "./image/mbti-illustration/INTJ.png", label: "INTJ" },
+  { src: "./image/mbti-illustration/ENFP.png", label: "ENFP" },
+  { src: "./image/mbti-illustration/ISTJ.png", label: "ISTJ" },
+  { src: "./image/mbti-illustration/ISTP.png", label: "ISTP" }
   ];
 
   let index = 0;
@@ -63,20 +50,23 @@
   let intervalId: ReturnType<typeof setInterval>;
 
   const moveCarousel = () => {
-    index = (index + 1) % cards.length;
+  index = (index + 1) % cards.length;
+  if (track) {
     track.style.transform = `translateX(-${index * 100}%)`;
+  }
   };
 
   onMount(() => {
-    intervalId = setInterval(moveCarousel, delay);
+  intervalId = setInterval(moveCarousel, delay);
   });
 
   onDestroy(() => clearInterval(intervalId));
 </script>
 
 <!-- Navbar -->
-<div class=" w-full px-4 pt-1">
-	<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-blue-500 duration-300 bg-white">
+<div class="w-full px-4 pt-1 md:p-5 space-y-8">
+<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-yellow-700 duration-300 bg-white">
+  
   <!-- Logo -->
   <div>
     <img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
@@ -84,16 +74,16 @@
 
   <!-- Desktop Menu -->
   <div class="hidden md:flex justify-center gap-6 items-center">
-    <a href="/test" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
-    <a href="/types" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
-    <a href="/theory" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
-    <a href="#label" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
+    <a href="/test" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Test</a>
+    <a href="/types" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Type</a>
+    <a href="/theory" class="font-semibold text-accent hover:text-yellow-800 duration-300">Science Behind</a>
+    <a href="#label" class="font-semibold text-accent hover:text-yellow-800 duration-300">The Journey</a>
   </div>
 
   <!-- Desktop Action Buttons -->
   <div class="hidden md:flex items-center gap-3">
     <a href="/test">
-      <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
+      <button class="btn border-black text-black items-center hover:btn-primary hover:text-yellow-300 hover:shadow-yellow-700 hover:shadow-md">
         Try Test
       </button>
     </a>
@@ -108,91 +98,95 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   </button>
-    </nav>
-</div>
+</nav>
 
+<!-- Mobile Dropdown -->
 {#if open}
- <div class="w-full px-6">
-   <div class="md:hidden w-full mt-3 flex flex-col gap-3 mx-9 p-4 rounded-lg bg-white shadow-md animate-fade">
-     <a href="/test" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Test</a>
-     <a href="/types" class="font-semibold text-accent hover:text-blue-800 duration-300">Personality Type</a>
-     <a href="/theory" class="font-semibold text-accent hover:text-blue-800 duration-300">Science Behind</a>
-     <a href="#label" class="font-semibold text-accent hover:text-blue-800 duration-300">The Journey</a>
-     <a href="/test">
-       <button class="btn border-black text-black items-center hover:btn-primary hover:text-blue-300 hover:shadow-blue-600 hover:shadow-md">
-         Try Test
-       </button>
-     </a>
-   </div>
- </div>
+  <div class="md:hidden mt-2 rounded-xl shadow-md outline hover:shadow-yellow-700 outline-black bg-white px-6 py-4 space-y-4">
+    
+    <!-- Menu Items -->
+    <div class="flex flex-col gap-4">
+      <a href="/test" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Test</a>
+      <a href="/types" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Type</a>
+      <a href="/theory" class="font-semibold text-accent hover:text-yellow-600 duration-200">Science Behind</a>
+      <a href="#label" class="font-semibold text-accent hover:text-yellow-600 duration-200">The Journey</a>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex flex-col gap-3 pt-4">
+      <a href="/test">
+        <button class="btn border-black text-black items-center hover:btn-primary hover:text-yellow-300 hover:shadow-yellow-600 hover:shadow-md">
+          Try Test
+        </button>
+      </a>
+    </div>
+  </div>
 {/if}
 
 <!-- HERO (Responsiveness improved) -->
-<div class="px-9 py-15 w-full">
+<div class="px-4 py-15 w-full">
   <section 
-    class="flex items-start justify-between gap-4 md:gap-8"
-    style="
-      transform: scale(clamp(0.75, 100vw / 950, 1));
-      transform-origin: top left;
-      width: 100%;
-    "
+  class="flex items-center justify-between gap-4 md:gap-8"
+  style="
+    transform: scale(clamp(0.75, 100vw / 950, 1));
+    transform-origin: top left;
+    width: 100%;
+  "
   >
 
-    <!-- TEKS -->
-    <div 
-      class="flex flex-col justify-center items-start space-y-6"
-      style="min-width: 210px; width: clamp(240px, 50vw, 460px);"
+  <!-- TEKS -->
+  <div 
+    class="flex flex-col justify-center items-start space-y-6"
+    style="min-width: 210px; width: clamp(240px, 50vw, 460px);"
+  >
+    <h1 class="text-3xl sm:text-4xl font-black text-black leading-tight">
+    MBTI-mu adalah 
+    <span
+      class="px-2 py-1 rounded-md transition-all duration-500"
+      class:bg-purple-600="{types[index].color.includes('bg-purple-600')}"
+      class:bg-green-400="{types[index].color.includes('bg-green-400')}"
+      class:bg-blue-500="{types[index].color.includes('bg-blue-500')}"
+      class:bg-yellow-600="{types[index].color.includes('bg-yellow-600')}"
+      class:text-white="{types[index].color.includes('text-white')}"
     >
-      <h1 class="text-3xl sm:text-4xl font-black text-black leading-tight">
-        MBTI-mu adalah 
-        <span
-          class="px-2 py-1 rounded-md transition-all duration-1000"
-          class:bg-gray-300="{types[current].color.includes('bg-gray-300')}"
-          class:bg-purple-600="{types[current].color.includes('bg-purple-600')}"
-          class:bg-orange-400="{types[current].color.includes('bg-orange-400')}"
-          class:bg-blue-500="{types[current].color.includes('bg-blue-500')}"
-          class:bg-red-600="{types[current].color.includes('bg-red-600')}"
-          class:text-white="{types[current].color.includes('text-white')}"
-          class:text-black="{types[current].color.includes('text-black')}"
-        >
-          {types[current].text}
-        </span>
-      </h1>
+      {types[index].text}
+    </span>
+    </h1>
 
-      <p class="text-base sm:text-lg text-gray-700">
-        Semua orang punya cerita unik tentang dirinya sendiri. Yuk, jelajahi ceritamu—tanpa ribet, gratis, dan pastinya bikin kamu lebih kenal diri sendiri!
-      </p>
+    <p class="text-base sm:text-lg text-gray-700">
+    Semua orang punya cerita unik tentang dirinya sendiri. Yuk, jelajahi ceritamu—tanpa ribet, gratis, dan pastinya bikin kamu lebih kenal diri sendiri!
+    </p>
 
-      <button class="btn btn-lg bg-black text-white rounded-xl hover:opacity-80">
-        Mulai Tes Sekarang
-      </button>
-    </div>
+    <button class="btn btn-lg bg-black text-white rounded-xl hover:opacity-80">
+    Mulai Tes Sekarang
+    </button>
+  </div>
 
-    <!-- CARD CAROUSEL -->
-    <div 
-      class="rounded-xl shadow-lg shadow-black overflow-hidden"
-      style="min-width: 140px; width: clamp(140px, 32vw, 280px); aspect-ratio: 3/4;"
+  <!-- CARD CAROUSEL -->
+  <div 
+    class="rounded-xl shadow-lg shadow-black overflow-hidden"
+    style="min-width: 140px; width: clamp(140px, 32vw, 280px); aspect-ratio: 3/4;"
+  >
+    <div
+    bind:this={track}
+    class="h-full flex transition-transform duration-700 ease-in-out"
     >
-      <div
-        bind:this={track}
-        class="h-full flex transition-transform duration-700 ease-in-out"
-      >
-        {#each cards as item}
-        <div class="relative w-full h-full shrink-0">
-          <img
-            src={item.src}
-            alt={item.label}
-            class="absolute inset-0 w-full h-full object-cover"
-          />
-        </div>
-        {/each}
-      </div>
+    {#each cards as item}
+    <div class="relative w-full h-full shrink-0">
+      <img
+      src={item.src}
+      alt={item.label}
+      class="absolute inset-0 w-full h-full object-cover"
+      />
     </div>
+    {/each}
+    </div>
+  </div>
 
   </section>
 </div>
 
-<section class="w-full px-10 py-20">
+<section class="w-full px-5 py-20">
   <div class="flex items-center w-full mb-9">
     <div class="flex-1 border-t-2 border-black"></div>
     <h2 class="text-3xl uppercase helvetica font-black text-black text-right whitespace-nowrap px-4">
@@ -240,7 +234,7 @@
   </div>
 </section>
 
-<div class=" w-full px-4 pt-1">
+<div class=" w-full pt-1">
   <section class="w-full py-20 px-5">
 		<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
 			<div class="text-left md:pr-10">
@@ -249,7 +243,7 @@
 				<button class="btn btn-primary">Lihat Semua Tipe</button>
 			</div>
 
-			<div class="relative mx-auto w-full max-w-sm aspect-[3/4] rounded-xl overflow-hidden shadow-lg">
+			<div class="relative mx-auto w-full max-w-sm aspect-3/4 rounded-xl overflow-hidden shadow-lg">
 				{#each images as img, i}
 					<img src={img} alt="" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 {current === i ? 'opacity-100' : 'opacity-0'}" />
 				{/each}
@@ -264,7 +258,7 @@
 		</div>
   </section>
 </div>
-
+</div>
 <style>
 	@keyframes scroll {
 		0% { transform: translateX(0); }

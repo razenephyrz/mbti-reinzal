@@ -138,7 +138,9 @@ let open = false;
   
   <!-- Logo -->
   <div>
-    <img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+    <a href="/">
+		  <img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+	  </a>
   </div>
 
   <!-- Desktop Menu -->
@@ -411,7 +413,7 @@ let open = false;
 <!-- Footer -->
 <footer class="text-center mt-8 md:mt-12 text-xs md:text-sm text-gray-500 px-4">
     <hr class="my-4" />
-    <p>"Di balik tatapan dingin INTJ, ada ketenangan yang dibangun dari pemikiran mendalam dan keyakinan pada arah yang mereka pilih."</p>
+    <p>"Visi saya lahir dari empati. Saya bermimpi tentang dunia yang lebih baik, dan saya bekerja dalam diam untuk mewujudkannya."</p>
     <p class="mt-2">© 2025 MBTI PopCulture Project</p>
 </footer>
 
