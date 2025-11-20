@@ -77,7 +77,7 @@
     <a href="/test" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Test</a>
     <a href="/types" class="font-semibold text-accent hover:text-yellow-800 duration-300">Personality Type</a>
     <a href="/theory" class="font-semibold text-accent hover:text-yellow-800 duration-300">Science Behind</a>
-    <a href="#label" class="font-semibold text-accent hover:text-yellow-800 duration-300">The Journey</a>
+    <a href="/journey" class="font-semibold text-accent hover:text-yellow-800 duration-300">The Journey</a>
   </div>
 
   <!-- Desktop Action Buttons -->
@@ -109,7 +109,7 @@
       <a href="/test" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Test</a>
       <a href="/types" class="font-semibold text-accent hover:text-yellow-600 duration-200">Personality Type</a>
       <a href="/theory" class="font-semibold text-accent hover:text-yellow-600 duration-200">Science Behind</a>
-      <a href="#label" class="font-semibold text-accent hover:text-yellow-600 duration-200">The Journey</a>
+      <a href="/journey" class="font-semibold text-accent hover:text-yellow-600 duration-200">The Journey</a>
     </div>
 
     <!-- Actions -->
@@ -157,9 +157,12 @@
     Semua orang punya cerita unik tentang dirinya sendiri. Yuk, jelajahi ceritamu—tanpa ribet, gratis, dan pastinya bikin kamu lebih kenal diri sendiri!
     </p>
 
-    <button class="btn btn-lg bg-black text-white rounded-xl hover:opacity-80">
-    Mulai Tes Sekarang
-    </button>
+    <a href="/test">
+      <button class="btn btn-lg bg-black text-white rounded-xl hover:opacity-80">
+        Mulai Tes Sekarang
+      </button>
+    </a>
+    
   </div>
 
   <!-- CARD CAROUSEL -->

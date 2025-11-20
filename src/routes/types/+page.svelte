@@ -165,7 +165,9 @@
 	<nav class="navbar will-change-transform px-6 md:px-10 w-full rounded-lg py-3 flex items-center justify-between outline mt-2 outline-black shadow-md hover:shadow-yellow-700 duration-300 bg-white">
 	  <!-- Logo -->
 	  <div>
-		<img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+		<a href="/">
+			<img src={hero.logo} class="h-10 md:h-12 w-auto" alt="MBTI Logo" />
+		</a>
 	  </div>
 	
 	  <!-- Desktop Menu -->
@@ -223,7 +225,7 @@
 <h1 class="text-center text-5xl font-black tracking-widest text-pink-800">THE ANALYST</h1>
 <section class="my-12 flex w-full flex-wrap justify-evenly gap-4">
 	<!-- Kartu 1 -->
-	<div
+	<a href="/ENTJ"><div
 		class=" ungu-1 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-pink-800"
 	>
 		<img src="./image/mbti-illustration/ENTJ.png" alt="card" class="h-full w-full object-cover" />
@@ -246,10 +248,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 2 -->
-	<div
+	<a href="/INTJ"><div
 		class=" ungu-2 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-pink-800"
 	>
 		<img src="./image/mbti-illustration/INTJ.png" alt="card" class="h-full w-full object-cover" />
@@ -272,10 +274,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 3 -->
-	<div
+	<a href="/INTP"><div
 		class=" ungu-3 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-pink-800"
 	>
 		<img src="./image/mbti-illustration/INTP.png" alt="card" class="h-full w-full object-cover" />
@@ -298,10 +300,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 4 -->
-	<div
+	<a href="/ENTP"><div
 		class=" ungu-4 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-pink-800"
 	>
 		<img src="./image/mbti-illustration/ENTP.png" alt="card" class="h-full w-full object-cover" />
@@ -324,13 +326,13 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 </section>
 <!-- Bagian Ijo -->
 <h1 class="text-center text-5xl font-black tracking-widest text-green-600">THE DIPLOMATS</h1>
 <section class="my-12 flex w-full flex-wrap justify-evenly gap-4">
 	<!-- Kartu 1 -->
-	<div
+	<a href="/ENFJ"><div
 		class=" hijau-1 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-green-700"
 	>
 		<img src="./image/mbti-illustration/ENFJ.png" alt="card" class="h-full w-full object-cover" />
@@ -353,10 +355,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 2 -->
-	<div
+	<a href="/INFJ"><div
 		class=" hijau-2 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-green-700"
 	>
 		<img src="./image/mbti-illustration/INFJ.png" alt="card" class="h-full w-full object-cover" />
@@ -381,10 +383,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 3 -->
-	<div
+	<a href="/ENFP"><div
 		class=" hijau-3 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-green-700"
 	>
 		<img src="./image/mbti-illustration/ENFP.png" alt="card" class="h-full w-full object-cover" />
@@ -409,10 +411,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 4 -->
-	<div
+	<a href="/INFP"><div
 		class=" hijau-4 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-green-700"
 	>
 		<img src="./image/mbti-illustration/INFP.png" alt="card" class="h-full w-full object-cover" />
@@ -435,13 +437,13 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 </section>
 <!-- Bagian Biru -->
 <h1 class="text-center text-5xl font-black tracking-widest text-blue-500">THE SENTINELS</h1>
 <section class="my-12 flex w-full flex-wrap justify-evenly gap-4">
 	<!-- Kartu 1 -->
-	<div
+	<a href="/ISTJ"><div
 		class=" biru-1 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-blue-800"
 	>
 		<img src="./image/mbti-illustration/ISTJ.png" alt="card" class="h-full w-full object-cover" />
@@ -458,10 +460,10 @@
 				<path d="M12 2L4 12l8 10 8-10L12 2z" />
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 2 -->
-	<div
+	<a href="/ESFJ"><div
 		class=" biru-2 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-blue-800"
 	>
 		<img src="./image/mbti-illustration/ESFJ.png" alt="card" class="h-full w-full object-cover" />
@@ -479,10 +481,10 @@
 				<path d="M12 2L4 12l8 10 8-10L12 2z" />
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 3 -->
-	<div
+	<a href="/ESTJ"><div
 		class=" biru-3 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-blue-800"
 	>
 		<img src="./image/mbti-illustration/ESTJ.png" alt="card" class="h-full w-full object-cover" />
@@ -499,10 +501,10 @@
 				<path d="M12 2L4 12l8 10 8-10L12 2z" />
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- Kartu 4 -->
-	<div
+	<a href="/ISFJ"><div
 		class=" biru-4 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-blue-800"
 	>
 		<img src="./image/mbti-illustration/ISFJ.png" alt="card" class="h-full w-full object-cover" />
@@ -519,13 +521,13 @@
 				<path d="M12 2L4 12l8 10 8-10L12 2z" />
 			</svg>
 		</div>
-	</div>
+	</div></a>
 </section>
 <!-- Bagian Oren -->
 <h1 class="text-center text-5xl font-black tracking-widest text-yellow-600">THE EXPLORERS</h1>
 <section class="my-12 flex w-full flex-wrap justify-evenly gap-4">
 	<!-- ISTP -->
-	<div
+	<a href="/ISTP"><div
 		class="oren-1 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-yellow-600"
 	>
 		<img src="./image/mbti-illustration/ISTP.png" alt="card" class="h-full w-full object-cover" />
@@ -546,10 +548,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- ESTP -->
-	<div
+	<a href="/ESTP"><div
 		class=" oren-2 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-yellow-600"
 	>
 		<img src="./image/mbti-illustration/ESTP.png" alt="card" class="h-full w-full object-cover" />
@@ -570,10 +572,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- ESFP -->
-	<div
+	<a href="/ESFP"><div
 		class=" oren-3 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-yellow-600"
 	>
 		<img src="./image/mbti-illustration/ESFP.png" alt="card" class="h-full w-full object-cover" />
@@ -594,10 +596,10 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 
 	<!-- ISFP -->
-	<div
+	<a href="/ISFP"><div
 		class=" oren-4 group relative aspect-[3/4] w-72 overflow-hidden rounded-lg border border-black bg-white shadow-md hover:shadow-xl hover:shadow-yellow-600"
 	>
 		<img src="./image/mbti-illustration/ISFP.png" alt="card" class="h-full w-full object-cover" />
@@ -618,6 +620,6 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div></a>
 </section>
 </div>

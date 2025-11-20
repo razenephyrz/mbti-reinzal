@@ -17,7 +17,7 @@
                 'Minimnya ilustrasi & visual yang menarik',
                 'Tekad untuk membuat platform yang lebih baik'
             ],
-            image: 'https://via.placeholder.com/500x400?text=Discovery+Journey',
+            image: '/image/journey/photo.png',
             accent: 'from-amber-300 to-amber-500'
         },
         {
@@ -31,7 +31,7 @@
                 'Masih terlalu sederhana & terbatas',
                 'Mulai memikirkan visi yang lebih besar'
             ],
-            image: 'https://via.placeholder.com/500x400?text=First+Iterations',
+            image: '/image/journey/photo2.png',
             accent: 'from-cyan-300 to-cyan-500'
         },
         {
@@ -46,7 +46,7 @@
                 'Belajar tech stack: SvelteKit, Tailwind, dan lebih banyak',
                 'Menerapkan professional web development practices'
             ],
-            image: '.',
+            image: '/image/journey/photo3.png',
             accent: 'from-emerald-300 to-emerald-500'
         },
         {
@@ -61,7 +61,7 @@
                 'Komitmen untuk pertumbuhan jangka panjang',
                 'Berbagi pengetahuan dan inspire orang lain'
             ],
-            image: 'https://via.placeholder.com/500x400?text=Passion+Growth',
+            image: '/image/journey/photo4.png',
             accent: 'from-rose-300 to-rose-500'
         }
     ];
@@ -107,7 +107,7 @@
       <a href="/test" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Test</a>
       <a href="/types" class="font-semibold text-accent hover:text-blue-600 duration-200">Personality Type</a>
       <a href="/theory" class="font-semibold text-accent hover:text-blue-600 duration-200">Science Behind</a>
-      <a href="#journey" class="font-semibold text-accent hover:text-blue-600 duration-200">The Journey</a>
+      <a href="/journey" class="font-semibold text-accent hover:text-blue-600 duration-200">The Journey</a>
     </div>
 
     <div class="flex flex-col gap-3 pt-4">
