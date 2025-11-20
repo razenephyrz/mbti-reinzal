@@ -61,99 +61,188 @@
 <!-- MAIN CONTENT -->
 <section class="mx-auto w-full space-y-12 px-4 py-12 leading-relaxed text-neutral-800 md:px-10">
 
-<h1 class="text-3xl font-bold md:text-4xl text-center">✨ Apa Sih Maksud dari Huruf-Huruf Kayak “INTJ” Itu?</h1>
+<h1 class="text-3xl font-bold md:text-4xl text-center">🧠 Teori Kepribadian Myers-Briggs: Fondasi Psikologi Tipe</h1>
 <p class="text-lg text-neutral-600 text-center max-w-2xl mx-auto">
-Begitu orang selesai tes kepribadian, biasanya langsung muncul empat huruf aneh seperti <strong>INTJ</strong>, <strong>ENFP</strong>, atau <strong>ISTP</strong>. Tapi sebenarnya apa arti kombinasi huruf itu? Apakah itu cuma kode? Atau benar-benar mencerminkan cara berpikir seseorang?
+Myers-Briggs Type Indicator (MBTI) adalah instrumen penilaian psikologi berbasis pada teori Carl Jung tentang preferensi psikologis. Framework ini mengidentifikasi empat dimensi ortogonal (independen) dari fungsi kognitif yang membentuk pola perilaku, preferensi pengambilan keputusan, dan gaya interaksi interpersonal.
 </p>
 
 <hr class="my-10 border-neutral-300" />
 
-<!-- PENJELASAN EMPAT DIMENSI -->
-<h2 class="text-2xl font-bold">📌 1. Sumber Energi — Extroversion (E) vs Introversion (I)</h2>
-<p>
-Huruf pertama menunjukkan kamu lebih nyaman mendapatkan energi dari mana:
+<!-- PENJELASAN EMPAT DIMENSI DENGAN TEKNIS -->
+<h2 class="text-2xl font-bold">🔬 Empat Dimensi Ortogonal MBTI</h2>
+
+<h3 class="text-xl font-semibold mt-6 mb-3">1. Orientasi Energi — Extroversion (E) vs Introversion (I)</h3>
+<p class="text-neutral-700 leading-relaxed">
+Dimensi pertama mengukur <strong>bagaimana individu mengarahkan perhatian dan energi mereka</strong>, serta dari mana mereka memperoleh stimulasi psikologis:
 </p>
-<ul class="list-disc ml-6 space-y-2">
-  <li><strong>E – Extroversion:</strong> Energimu naik saat bersosialisasi, berbicara, dan terlibat di lingkungan aktif.</li>
-  <li><strong>I – Introversion:</strong> Energimu terisi saat sendiri, merenung, atau mengerjakan hal pribadi.</li>
+<ul class="list-disc ml-6 space-y-3 mt-3 text-neutral-700">
+  <li><strong>Extroversion (E):</strong> Individu dengan preferensi ekstrovert berorientasi pada dunia eksternal—orang, aktivitas, dan objek konkret. Mereka mendapatkan energi dari interaksi sosial, lingkungan dinamis, dan stimulus eksternal. Pola kognitif mereka ditandai oleh eksplorasi aktif, berbagi pemikiran secara lisan, dan engagement cepat dengan informasi baru.</li>
+  <li><strong>Introversion (I):</strong> Individu introvert berorientasi pada dunia internal—ide, refleksi, dan proses mental. Energi mereka terisi melalui kontemplasi dalam, pemikiran yang terkonsentrasi, dan lingkungan yang tenang. Mereka cenderung memproses pengalaman secara internal sebelum menyuarakan perspektif.</li>
 </ul>
 
 <hr class="my-10 border-neutral-300" />
 
-<h2 class="text-2xl font-bold">📌 2. Cara Memproses Informasi — Sensing (S) vs Intuition (N)</h2>
-<p>
-Ini menentukan bagaimana kamu melihat dunia dan menangkap informasi:
+<h3 class="text-xl font-semibold mt-6 mb-3">2. Fungsi Persepsi — Sensing (S) vs Intuition (N)</h3>
+<p class="text-neutral-700 leading-relaxed">
+Dimensi kedua menggambarkan <strong>bagaimana individu mengumpulkan dan mempersepsikan informasi</strong>—fokus mereka pada data konkret versus pola abstrak:
 </p>
-<ul class="list-disc ml-6 space-y-2">
-  <li><strong>S – Sensing:</strong> Fokus pada fakta, detail nyata, pengalaman konkret.</li>
-  <li><strong>N – Intuition:</strong> Fokus pada pola, kemungkinan, ide abstrak, dan hal-hal "di balik layar".</li>
+<ul class="list-disc ml-6 space-y-3 mt-3 text-neutral-700">
+  <li><strong>Sensing (S):</strong> Tipe sensing bergantung pada persepsi indera (sight, sound, touch, taste, smell) dan fokus pada informasi yang dapat diamati secara langsung di sini dan sekarang. Mereka berorientasi pada "apa yang ada," memperhatikan fakta terukur, detail praktis, dan pengalaman konkret. Pola berpikir mereka sekuensial dan detail-oriented.</li>
+  <li><strong>Intuition (N):</strong> Tipe intuisi fokus pada pola, hubungan tersembunyi, kemungkinan hipotetis, dan makna di balik informasi. Mereka cenderung melihat gambaran besar (big picture), menggunakan analogi, dan membayangkan skenario alternatif. Persepsi mereka melibatkan proses inferensial dan visioner.</li>
 </ul>
 
 <hr class="my-10 border-neutral-300" />
 
-<h2 class="text-2xl font-bold">📌 3. Cara Membuat Keputusan — Thinking (T) vs Feeling (F)</h2>
-<p>
-Ini adalah cara kamu menentukan keputusan:
+<h3 class="text-xl font-semibold mt-6 mb-3">3. Fungsi Penilaian — Thinking (T) vs Feeling (F)</h3>
+<p class="text-neutral-700 leading-relaxed">
+Dimensi ketiga mencerminkan <strong>kriteria logika yang digunakan individu dalam pengambilan keputusan</strong>—pendekatan objektif versus subjektif:
 </p>
-<ul class="list-disc ml-6 space-y-2">
-  <li><strong>T – Thinking:</strong> Mengutamakan logika, objektivitas, dan konsistensi.</li>
-  <li><strong>F – Feeling:</strong> Mengutamakan empati, harmoni, dan perasaan orang lain.</li>
+<ul class="list-disc ml-6 space-y-3 mt-3 text-neutral-700">
+  <li><strong>Thinking (T):</strong> Tipe thinking menggunakan logika impersonal, analisis kausal, dan standar objektif dalam evaluasi. Mereka mencari konsistensi sistemik, efisiensi, dan keadilan universal. Kriteria keputusan mereka berbasis pada prinsip logis yang dapat diverifikasi, sering mengabaikan faktor emosional dalam pertimbangan formal.</li>
+  <li><strong>Feeling (F):</strong> Tipe feeling mengintegrasikan nilai-nilai personal, dampak emosional, dan harmoni relasional dalam penilaian. Mereka mempertimbangkan kepentingan individu dan kolektif, empati, dan autentisitas personal. Keputusan mereka sering mencerminkan prioritas manusiawi dan pertimbangan kontekstual.</li>
 </ul>
 
 <hr class="my-10 border-neutral-300" />
 
-<h2 class="text-2xl font-bold">📌 4. Gaya Hidup — Judging (J) vs Perceiving (P)</h2>
-<p>
-Dimensi ini menggambarkan gaya hidup sehari-hari:
+<h3 class="text-xl font-semibold mt-6 mb-3">4. Orientasi Lifestyle — Judging (J) vs Perceiving (P)</h3>
+<p class="text-neutral-700 leading-relaxed">
+Dimensi keempat mendeskripsikan <strong>bagaimana individu mengstruktur kehidupan sehari-hari mereka</strong> dan preferensi mereka terhadap closure versus openness:
 </p>
-<ul class="list-disc ml-6 space-y-2">
-  <li><strong>J – Judging:</strong> Terstruktur, suka rencana, suka kepastian.</li>
-  <li><strong>P – Perceiving:</strong> Fleksibel, spontan, mudah menyesuaikan.</li>
+<ul class="list-disc ml-6 space-y-3 mt-3 text-neutral-700">
+  <li><strong>Judging (J):</strong> Tipe judging lebih menyukai struktur terencana, kontrol, dan penutupan (closure) dalam tugas dan lingkungan. Mereka bekerja dengan agenda yang jelas, keputusan yang final, dan sistem yang terorganisir. Gaya hidup mereka ditandai oleh planning yang purposive dan preferensi untuk skenario yang dapat diprediksi.</li>
+  <li><strong>Perceiving (P):</strong> Tipe perceiving lebih nyaman dengan fleksibilitas, adaptabilitas, dan openness. Mereka menyukai pilihan yang tetap terbuka, respons dinamis terhadap perubahan, dan eksplorasi berkelanjutan. Gaya mereka lebih improvisasi dan responsif terhadap situasi yang emerging daripada pre-planned.</li>
 </ul>
+
+<hr class="my-10 border-neutral-300" />
+
+<!-- KONTEKS HISTORIS DAN TEORITIS -->
+<h2 class="text-2xl font-bold">📚 Dasar Teoritis: Tipologi Jungian</h2>
+<p class="text-neutral-700 leading-relaxed">
+MBTI dibangun atas fondasi teori Psychological Types karya Carl Jung (1921), yang menekankan bahwa perbedaan kepribadian bukan disfungsi, melainkan <strong>variasi normal</strong> dalam cara individu memproses informasi, menggunakan energi, dan membuat keputusan. Jung mengidentifikasi dua sikap (attitudes) utama—ekstroversion dan introversion—serta empat fungsi psikologis: thinking, feeling, sensation, dan intuition.
+</p>
+<p class="text-neutral-700 leading-relaxed mt-4">
+Katherine Briggs dan Isabel Briggs Myers kemudian mengembangkan framework Jung menjadi instrumen yang terukur dan valid, mengidentifikasi bahwa keempat dimensi bekerja secara independen namun terintegrasi, menghasilkan <strong>16 tipe kepribadian unik</strong>.
+</p>
+
+<hr class="my-10 border-neutral-300" />
+
+<!-- MODEL INTEGRASI DINAMIS -->
+<h2 class="text-2xl font-bold">⚙️ Model Dinamis: Integrasi Keempat Fungsi</h2>
+<p class="text-neutral-700 leading-relaxed">
+Framework MBTI melampaui penjumlahan sederhana keempat dimensi. Teori Stack Fungsi (Function Stack) menjelaskan bahwa setiap tipe memiliki hierarki fungsi kognitif yang terintegrasi secara dinamis. Misalnya, INTJ mengoperasikan Introverted Intuition sebagai fungsi dominan (leadership function), diikuti Extroverted Thinking sebagai fungsi auxiliary (support function). Kombinasi hierarkis ini menciptakan alur kognitif unik yang mengarahkan bagaimana tipe tersebut berinteraksi dengan dunia.
+</p>
+<p class="text-neutral-700 leading-relaxed mt-3">
+Pemahaman ini penting karena menunjukkan bahwa MBTI bukan hanya kategori statis, melainkan <strong>sistem dinamis proses mental</strong> yang menjelaskan kompleksitas perilaku manusia melalui lensa psikologi kognitif.
+</p>
+
+<hr class="my-10 border-neutral-300" />
+
+<!-- VALIDITAS DAN APLIKASI -->
+<h2 class="text-2xl font-bold">✓ Reliabilitas, Validitas, dan Aplikasi</h2>
+<p class="text-neutral-700 leading-relaxed">
+Studi empiris menunjukkan bahwa MBTI memiliki reliabilitas test-retest yang kuat (0.84-0.92) dan validitas konstruk yang mendukung penggunaan dalam berbagai konteks: pengembangan karir, team building, konseling, dan self-discovery. Namun, perlu dicatat bahwa MBTI adalah instrumen preferensi, bukan ukuran kemampuan atau patologi. Fleksibilitas tipe (type flexibility) menunjukkan bahwa individu dapat mengembangkan kemampuan pada preferensi yang lebih lemah melalui pembelajaran dan pengalaman.
+</p>
 
 <hr class="my-10 border-neutral-300" />
 
 <!-- BAGIAN 16 TIPE -->
 <h2 class="text-3xl font-bold text-center">🌟 Enam Belas Tipe Kepribadian MBTI</h2>
 <p class="text-center text-neutral-600 max-w-2xl mx-auto">
-Di bawah ini kamu bisa lihat penjelasan singkat untuk semua 16 tipe MBTI.
+Kombinasi keempat dimensi menghasilkan 16 profil kepribadian yang unik, masing-masing dengan kekuatan, tantangan, dan path pengembangan yang spesifik.
 </p>
 
 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-  <!-- contoh card; seluruh 16 card ada di sini -->
   <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
     <h3 class="font-bold text-xl">INTJ – The Architect</h3>
-    <p class="text-neutral-600 mt-2">Strategis, visioner, dan sangat logis. Suka sistem yang efisien dan konsep jangka panjang.</p>
+    <p class="text-neutral-600 mt-2">Visioner strategis dengan kapasitas pemodelan sistem kompleks dan eksekusi terukur.</p>
   </div>
 
   <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
     <h3 class="font-bold text-xl">INTP – The Thinker</h3>
-    <p class="text-neutral-600 mt-2">Logis, ingin tahu, dan suka menjelajahi teori-teori kompleks.</p>
+    <p class="text-neutral-600 mt-2">Peneliti konseptual yang mengeksplorasi sistem ide melalui analisis logis mendalam.</p>
   </div>
 
   <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
     <h3 class="font-bold text-xl">ENTJ – The Commander</h3>
-    <p class="text-neutral-600 mt-2">Pemimpin alami yang tegas, cepat, dan analitis.</p>
+    <p class="text-neutral-600 mt-2">Leader organisator yang mengelola sumber daya dengan efisiensi dan orientasi hasil.</p>
   </div>
 
   <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
     <h3 class="font-bold text-xl">ENTP – The Debater</h3>
-    <p class="text-neutral-600 mt-2">Suka berdiskusi, kreatif, dan cepat menemukan ide baru.</p>
+    <p class="text-neutral-600 mt-2">Innovator fleksibel yang mengeksplorasi kemungkinan melalui diskusi dan eksperimentasi.</p>
   </div>
 
-  <!-- semua 12 tipe lain juga sudah lengkap dalam file -->
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">INFJ – The Advocate</h3>
+    <p class="text-neutral-600 mt-2">Idealis visioner yang menginspirasi perubahan positif melalui nilai dan autentisitas.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">INFP – The Mediator</h3>
+    <p class="text-neutral-600 mt-2">Mediator empatik yang mengejar otentisitas dan penciptaan makna personal.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ENFJ – The Protagonist</h3>
+    <p class="text-neutral-600 mt-2">Pemimpin karismatik yang memberdayakan orang lain melalui visi dan kepedulian genuine.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ENFP – The Campaigner</h3>
+    <p class="text-neutral-600 mt-2">Enthusiast optimis yang menciptakan koneksi dan mengeksplorasi kemungkinan baru.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ISTJ – The Logistician</h3>
+    <p class="text-neutral-600 mt-2">Administrator praktis yang menjamin efisiensi dan keandalan melalui sistem terstruktur.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ISFJ – The Defender</h3>
+    <p class="text-neutral-600 mt-2">Pelindung penuh perhatian yang memberikan dukungan konsisten dan harmoni relasional.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ESTJ – The Executive</h3>
+    <p class="text-neutral-600 mt-2">Eksekutif organisator yang memimpin dengan standar objektif dan hasil terukur.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ESFJ – The Consul</h3>
+    <p class="text-neutral-600 mt-2">Konselor sosial yang menciptakan harmoni melalui layanan dan perhatian personal.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ISTP – The Virtuoso</h3>
+    <p class="text-neutral-600 mt-2">Virtuoso teknis yang memahami bagaimana sistem bekerja melalui eksplorasi praktis.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ISFP – The Adventurer</h3>
+    <p class="text-neutral-600 mt-2">Petualang artistik yang mengekspresikan nilai melalui kreativitas dan pengalaman.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ESTP – The Entrepreneur</h3>
+    <p class="text-neutral-600 mt-2">Entrepreneur energik yang merespons peluang dengan aksi dan eksperimen cepat.</p>
+  </div>
+
+  <div class="p-5 border rounded-xl shadow hover:shadow-lg duration-200 bg-white">
+    <h3 class="font-bold text-xl">ESFP – The Entertainer</h3>
+    <p class="text-neutral-600 mt-2">Entertainer yang menciptakan energi positif dan membuat setiap momen memorable.</p>
+  </div>
 </div>
 
 <hr class="my-10 border-neutral-300" />
 
-<h2 class="text-3xl font-bold text-center">🚀 Jadi… Apa Tipe MBTI Kamu?</h2>
+<h2 class="text-3xl font-bold text-center">🎯 Aplikasi Praktis: Dari Teori ke Aksi</h2>
 <p class="text-lg text-neutral-700 text-center max-w-2xl mx-auto">
-Nah, sekarang kamu udah ngerti arti huruf-huruf itu. Tinggal cobain tesnya buat lihat kamu termasuk tipe yang mana!
+Memahami MBTI bukan hanya sekadar pengetahuan psikologi—ini adalah alat untuk self-awareness, komunikasi interpersonal yang lebih efektif, pengembangan karir yang aligned dengan preferensi natural, dan apresiasi terhadap perbedaan sebagai asset, bukan hambatan.
 </p>
 
 <div class="text-center mt-8">
 <a href="/test">
-<button class="btn text-lg px-8 border-black hover:btn-primary hover:text-yellow-200">Mulai Tes Sekarang ➜</button>
+<button class="btn text-lg px-8 border-black hover:btn-primary hover:text-yellow-200">Temukan Tipe Kamu dengan Tes ➜</button>
 </a>
 </div> 
 
